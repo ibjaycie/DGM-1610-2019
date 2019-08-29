@@ -20,5 +20,10 @@ public class Test : MonoBehaviour
 		{
 			GetComponent<Renderer>().material.color = Color.yellow;
 		}
+
+		if (Input.GetKeyDown(KeyCode.K))
+		{
+			GetComponent<Renderer>().material.color = Color.red;
+		}
 	}
 }
