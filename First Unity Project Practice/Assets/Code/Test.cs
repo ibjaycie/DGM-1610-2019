@@ -2,16 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Test : MonoBehaviour {
-
-	// Use this for initialization
-	void Start ()
+public class Test : MonoBehaviour 
+{
+	void Update () 
 	{
-		print("I'm working");
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+		if (Input.GetKeyDown(KeyCode.J))
+		{
+			GetComponent<Renderer>().material.color = Color.magenta;
+		}
+
+		if (Input.GetKeyDown(KeyCode.Y))
+		{
+			GetComponent<Renderer>().material.color = Color.black;
+		}
+
+		if (Input.GetKeyDown(KeyCode.T))
+		{
+			GetComponent<Renderer>().material.color = Color.yellow;
+		}
 	}
 }
