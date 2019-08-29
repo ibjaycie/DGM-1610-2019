@@ -5,8 +5,9 @@ using UnityEngine;
 public class Test : MonoBehaviour {
 
 	// Use this for initialization
-	void Start () {
-		
+	void Start ()
+	{
+		print("I'm working");
 	}
 	
 	// Update is called once per frame
