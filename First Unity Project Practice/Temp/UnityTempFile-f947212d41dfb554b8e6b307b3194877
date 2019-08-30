@@ -180,4 +180,5 @@
 -define:UNITY_TEAM_LICENSE
 Assets/Code/CubeMove.cs
 Assets/Code/Test.cs
+Assets/Code/VarsClass.cs
 -lib:"C:\Program Files\Unity Hub\2018.1.9f2\Editor\Data\MonoBleedingEdge\lib\mono\unity"
