@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\ibjaycie\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -9,6 +9,7 @@
         <e p="Code" t="Include">
           <e p="CubeMove.cs" t="Include" />
           <e p="Test.cs" t="Include" />
+          <e p="VarsClass.cs" t="Include" />
         </e>
       </e>
       <e p="First Unity Project Practice.sln" t="IncludeFlat" />

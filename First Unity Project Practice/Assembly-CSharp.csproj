@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="Assets\Code\CubeMove.cs" />
     <Compile Include="Assets\Code\Test.cs" />
+    <Compile Include="Assets\Code\VarsClass.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/ibjaycie/Coding Practice/Practicing-Code/DGM-1610-2019/First Unity Project Practice/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
