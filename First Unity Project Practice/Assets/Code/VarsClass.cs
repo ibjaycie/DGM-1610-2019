@@ -10,6 +10,10 @@ public class VarsClass : MonoBehaviour
 		print(message: "leaves me");
 		print(message: "feelin");
 		print(message: "Seasick");
+		print("she. . . ");
+		print("looks like a");
+		print("parrot");
+		print("come fly with me");
 	}
 
 }
