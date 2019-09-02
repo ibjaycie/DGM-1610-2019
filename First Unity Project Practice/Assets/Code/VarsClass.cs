@@ -14,6 +14,7 @@ public class VarsClass : MonoBehaviour
 		print("looks like a");
 		print("parrot");
 		print("come fly with me");
+		print("not exactly sure what else to do");
 	}
 
 }
