@@ -11,6 +11,7 @@
           <e p="PressButton.cs" t="Include" />
           <e p="Test.cs" t="Include" />
           <e p="TheGoodButton.cs" t="Include" />
+          <e p="Variables.cs" t="Include" />
           <e p="VarsClass.cs" t="Include" />
         </e>
       </e>

@@ -63,6 +63,7 @@
     <Compile Include="Assets\Code\PressButton.cs" />
     <Compile Include="Assets\Code\Test.cs" />
     <Compile Include="Assets\Code\TheGoodButton.cs" />
+    <Compile Include="Assets\Code\Variables.cs" />
     <Compile Include="Assets\Code\VarsClass.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/ibjaycie/Coding Practice/Practicing-Code/DGM-1610-2019/First Unity Project Practice/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
