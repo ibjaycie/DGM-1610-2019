@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Variables : MonoBehaviour
 {
@@ -9,10 +10,13 @@ public class Variables : MonoBehaviour
 	public int intValue;
 	public string stringValue = "Chim";
 	public int firePower;
+	//Added in class after commit
+	public UnityEvent Event;
 
 	private void OnTriggerEnter(Collider other)
 	{
-		print("Just passing through");
+		Event.Invoke();
+		print("Just passing Through");
 	}
 
 	// Use this for initialization
