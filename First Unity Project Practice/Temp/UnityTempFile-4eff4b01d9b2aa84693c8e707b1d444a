@@ -179,6 +179,7 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:UNITY_TEAM_LICENSE
 Assets/Code/CubeMove.cs
+Assets/Code/PlayerOneEvent.cs
 Assets/Code/PressButton.cs
 Assets/Code/Test.cs
 Assets/Code/TheGoodButton.cs
