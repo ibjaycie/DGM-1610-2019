@@ -59,6 +59,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Code\BigBoss.cs" />
     <Compile Include="Assets\Code\CubeMove.cs" />
     <Compile Include="Assets\Code\PlayerOneEvent.cs" />
     <Compile Include="Assets\Code\PressButton.cs" />

@@ -38,6 +38,14 @@ public class PlayerOneEvent : MonoBehaviour
 		print("That was a close one");
 	}
 
+	//Not entirely sure what I did to make this happen, but now my cube player CONSUMES the bomb
+	//when it collides with it. . . as well as the cube particles explode not the bombs. I like it though. 
+	private void OnCollisionEnter(Collision other)
+	{
+		Event.Invoke();
+		print("I just ran into a bomb");
+	}
+
 	// Use this for initialization
 	void Start () {
 		
