@@ -14,6 +14,16 @@ public class BigBoss : MonoBehaviour
 		print("Nomnomnom");
 	}
 
+	private void OnCollisionExit(Collision other)
+	{
+		//I haven't been able to figure out why yet but sometimes when I want to collide with
+		//another object, the objects get bumped into 3D space and float the direction it was pushed.
+		//Still working on fixing that. 
+		Event.Invoke();
+		//Not printing the below message. . .hmmmmmmmmmmmm
+		print("why won't you die?");
+		
+	}
 
 	// Use this for initialization
 	void Start () {
