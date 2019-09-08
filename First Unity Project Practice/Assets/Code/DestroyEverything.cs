@@ -4,18 +4,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class ParticleSystemDestroy : MonoBehaviour
+public class DestroyEverything : MonoBehaviour
 {
 	public UnityEvent Event;
-
-	//I want this once the particles hit an object they destroy the object.
-	private void OnCollisionEnter(Collision other)
+	private void OnTriggerEnter(Collider other)
 	{
-		Event.Invoke();
-		//if (OnCollisionEnter(Collision other))
-		//{
-		//	Event.Invoke(other);
-		//}
+		Collider.Destroy(gameObject); //well this worked!! Did that on my own. 
+		//(Collider.DestroyImmediate(gameObject));
+		{
+			print("Item destroyed");
+			Destroy(gameObject);
+		}
 	}
 
 

@@ -180,6 +180,8 @@
 -define:UNITY_TEAM_LICENSE
 Assets/Code/BigBoss.cs
 Assets/Code/CubeMove.cs
+Assets/Code/DestroyEverything.cs
+Assets/Code/ParticleSystemDestroy.cs
 Assets/Code/PlayerOneEvent.cs
 Assets/Code/PressButton.cs
 Assets/Code/Test.cs

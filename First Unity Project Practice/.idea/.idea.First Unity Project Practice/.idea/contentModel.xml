@@ -9,6 +9,7 @@
         <e p="Code" t="Include">
           <e p="BigBoss.cs" t="Include" />
           <e p="CubeMove.cs" t="Include" />
+          <e p="DestroyEverything.cs" t="Include" />
           <e p="ParticleSystemDestroy.cs" t="Include" />
           <e p="PlayerOneEvent.cs" t="Include" />
           <e p="PressButton.cs" t="Include" />
