@@ -63,11 +63,13 @@
     <Compile Include="Assets\Code\CapsuleScript.cs" />
     <Compile Include="Assets\Code\CubeMove.cs" />
     <Compile Include="Assets\Code\DestroyEverything.cs" />
+    <Compile Include="Assets\Code\FloatData.cs" />
     <Compile Include="Assets\Code\ParticleSystemDestroy.cs" />
     <Compile Include="Assets\Code\PlayerOneEvent.cs" />
     <Compile Include="Assets\Code\PressButton.cs" />
     <Compile Include="Assets\Code\Test.cs" />
     <Compile Include="Assets\Code\TheGoodButton.cs" />
+    <Compile Include="Assets\Code\TriggerEvents.cs" />
     <Compile Include="Assets\Code\Variables.cs" />
     <Compile Include="Assets\Code\VarsClass.cs" />
     <Reference Include="UnityEditor.StandardEvents">

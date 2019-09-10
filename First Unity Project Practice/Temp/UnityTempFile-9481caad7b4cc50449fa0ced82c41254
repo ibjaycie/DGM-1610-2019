@@ -182,6 +182,7 @@ Assets/Code/BigBoss.cs
 Assets/Code/CapsuleScript.cs
 Assets/Code/CubeMove.cs
 Assets/Code/DestroyEverything.cs
+Assets/Code/FloatData.cs
 Assets/Code/ParticleSystemDestroy.cs
 Assets/Code/PlayerOneEvent.cs
 Assets/Code/PressButton.cs

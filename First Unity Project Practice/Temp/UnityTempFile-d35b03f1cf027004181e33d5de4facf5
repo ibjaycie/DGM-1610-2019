@@ -182,11 +182,13 @@ Assets/Code/BigBoss.cs
 Assets/Code/CapsuleScript.cs
 Assets/Code/CubeMove.cs
 Assets/Code/DestroyEverything.cs
+Assets/Code/FloatData.cs
 Assets/Code/ParticleSystemDestroy.cs
 Assets/Code/PlayerOneEvent.cs
 Assets/Code/PressButton.cs
 Assets/Code/Test.cs
 Assets/Code/TheGoodButton.cs
+Assets/Code/TriggerEvents.cs
 Assets/Code/Variables.cs
 Assets/Code/VarsClass.cs
 -lib:"C:\Program Files\Unity Hub\2018.1.9f2\Editor\Data\MonoBleedingEdge\lib\mono\unity"
