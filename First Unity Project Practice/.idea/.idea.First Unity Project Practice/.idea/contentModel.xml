@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Code" t="Include">
           <e p="BigBoss.cs" t="Include" />
+          <e p="CapsuleScript.cs" t="Include" />
           <e p="CubeMove.cs" t="Include" />
           <e p="DestroyEverything.cs" t="Include" />
           <e p="ParticleSystemDestroy.cs" t="Include" />

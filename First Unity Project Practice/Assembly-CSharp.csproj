@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Code\BigBoss.cs" />
+    <Compile Include="Assets\Code\CapsuleScript.cs" />
     <Compile Include="Assets\Code\CubeMove.cs" />
     <Compile Include="Assets\Code\DestroyEverything.cs" />
     <Compile Include="Assets\Code\ParticleSystemDestroy.cs" />

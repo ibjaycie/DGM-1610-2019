@@ -179,6 +179,7 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:UNITY_TEAM_LICENSE
 Assets/Code/BigBoss.cs
+Assets/Code/CapsuleScript.cs
 Assets/Code/CubeMove.cs
 Assets/Code/DestroyEverything.cs
 Assets/Code/ParticleSystemDestroy.cs
