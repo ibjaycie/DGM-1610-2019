@@ -16,6 +16,7 @@
           </e>
           <e p="Player Scripts" t="Include">
             <e p="BigBoss.cs" t="Include" />
+            <e p="BulletTriggerEvent.cs" t="Include" />
             <e p="CapsuleScript.cs" t="Include" />
             <e p="CubeMove.cs" t="Include" />
             <e p="DestroyEverything.cs" t="Include" />

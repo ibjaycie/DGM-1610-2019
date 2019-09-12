@@ -65,6 +65,7 @@
     <Compile Include="Assets\Code\In Class\Variables.cs" />
     <Compile Include="Assets\Code\In Class\VarsClass.cs" />
     <Compile Include="Assets\Code\Player Scripts\BigBoss.cs" />
+    <Compile Include="Assets\Code\Player Scripts\BulletTriggerEvent.cs" />
     <Compile Include="Assets\Code\Player Scripts\CapsuleScript.cs" />
     <Compile Include="Assets\Code\Player Scripts\CubeMove.cs" />
     <Compile Include="Assets\Code\Player Scripts\DestroyEverything.cs" />
