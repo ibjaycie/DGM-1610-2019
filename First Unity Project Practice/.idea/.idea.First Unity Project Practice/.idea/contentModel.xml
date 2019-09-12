@@ -11,6 +11,9 @@
             <e p="CatClass.cs" t="Include" />
             <e p="Dog.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
+            <e p="MouseEvents.cs" t="Include" />
+            <e p="ParticleControl.cs" t="Include" />
+            <e p="ParticlesOnMouseDown.cs" t="Include" />
             <e p="Test.cs" t="Include" />
             <e p="TriggerEvents.cs" t="Include" />
             <e p="Variables.cs" t="Include" />

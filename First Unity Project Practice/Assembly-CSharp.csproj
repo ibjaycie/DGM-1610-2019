@@ -62,6 +62,9 @@
     <Compile Include="Assets\Code\In Class\CatClass.cs" />
     <Compile Include="Assets\Code\In Class\Dog.cs" />
     <Compile Include="Assets\Code\In Class\FloatData.cs" />
+    <Compile Include="Assets\Code\In Class\MouseEvents.cs" />
+    <Compile Include="Assets\Code\In Class\ParticleControl.cs" />
+    <Compile Include="Assets\Code\In Class\ParticlesOnMouseDown.cs" />
     <Compile Include="Assets\Code\In Class\Test.cs" />
     <Compile Include="Assets\Code\In Class\TriggerEvents.cs" />
     <Compile Include="Assets\Code\In Class\Variables.cs" />
