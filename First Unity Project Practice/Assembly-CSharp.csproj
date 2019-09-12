@@ -59,19 +59,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Code\BigBoss.cs" />
-    <Compile Include="Assets\Code\CapsuleScript.cs" />
-    <Compile Include="Assets\Code\CubeMove.cs" />
-    <Compile Include="Assets\Code\DestroyEverything.cs" />
-    <Compile Include="Assets\Code\FloatData.cs" />
-    <Compile Include="Assets\Code\ParticleSystemDestroy.cs" />
-    <Compile Include="Assets\Code\PlayerOneEvent.cs" />
-    <Compile Include="Assets\Code\PressButton.cs" />
-    <Compile Include="Assets\Code\Test.cs" />
-    <Compile Include="Assets\Code\TheGoodButton.cs" />
-    <Compile Include="Assets\Code\TriggerEvents.cs" />
-    <Compile Include="Assets\Code\Variables.cs" />
-    <Compile Include="Assets\Code\VarsClass.cs" />
+    <Compile Include="Assets\Code\In Class\FloatData.cs" />
+    <Compile Include="Assets\Code\In Class\Test.cs" />
+    <Compile Include="Assets\Code\In Class\TriggerEvents.cs" />
+    <Compile Include="Assets\Code\In Class\Variables.cs" />
+    <Compile Include="Assets\Code\In Class\VarsClass.cs" />
+    <Compile Include="Assets\Code\Player Scripts\BigBoss.cs" />
+    <Compile Include="Assets\Code\Player Scripts\CapsuleScript.cs" />
+    <Compile Include="Assets\Code\Player Scripts\CubeMove.cs" />
+    <Compile Include="Assets\Code\Player Scripts\DestroyEverything.cs" />
+    <Compile Include="Assets\Code\Player Scripts\ParticleSystemDestroy.cs" />
+    <Compile Include="Assets\Code\Player Scripts\PlayerOneEvent.cs" />
+    <Compile Include="Assets\Code\Player Scripts\PracticeFloatData.cs" />
+    <Compile Include="Assets\Code\Player Scripts\PracticeTriggerEvents.cs" />
+    <Compile Include="Assets\Code\Player Scripts\PressButton.cs" />
+    <Compile Include="Assets\Code\Player Scripts\TheGoodButton.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/ibjaycie/Coding Practice/Practicing-Code/DGM-1610-2019/First Unity Project Practice/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

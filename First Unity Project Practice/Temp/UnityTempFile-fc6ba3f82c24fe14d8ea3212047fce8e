@@ -178,17 +178,19 @@
 -define:UNITY_EDITOR_WIN
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:UNITY_TEAM_LICENSE
-Assets/Code/BigBoss.cs
-Assets/Code/CapsuleScript.cs
-Assets/Code/CubeMove.cs
-Assets/Code/DestroyEverything.cs
-Assets/Code/FloatData.cs
-Assets/Code/ParticleSystemDestroy.cs
-Assets/Code/PlayerOneEvent.cs
-Assets/Code/PressButton.cs
-Assets/Code/Test.cs
-Assets/Code/TheGoodButton.cs
-Assets/Code/TriggerEvents.cs
-Assets/Code/Variables.cs
-Assets/Code/VarsClass.cs
+"Assets/Code/In Class/FloatData.cs"
+"Assets/Code/In Class/Test.cs"
+"Assets/Code/In Class/TriggerEvents.cs"
+"Assets/Code/In Class/Variables.cs"
+"Assets/Code/In Class/VarsClass.cs"
+"Assets/Code/Player Scripts/BigBoss.cs"
+"Assets/Code/Player Scripts/CapsuleScript.cs"
+"Assets/Code/Player Scripts/CubeMove.cs"
+"Assets/Code/Player Scripts/DestroyEverything.cs"
+"Assets/Code/Player Scripts/ParticleSystemDestroy.cs"
+"Assets/Code/Player Scripts/PlayerOneEvent.cs"
+"Assets/Code/Player Scripts/PracticeFloatData.cs"
+"Assets/Code/Player Scripts/PracticeTriggerEvents.cs"
+"Assets/Code/Player Scripts/PressButton.cs"
+"Assets/Code/Player Scripts/TheGoodButton.cs"
 -lib:"C:\Program Files\Unity Hub\2018.1.9f2\Editor\Data\MonoBleedingEdge\lib\mono\unity"
