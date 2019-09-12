@@ -34,7 +34,7 @@ public class BulletTriggerEvent : MonoBehaviour
 		//{
 			
 		//}
-	}
+	
 	
 
 }

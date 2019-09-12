@@ -178,6 +178,7 @@
 -define:UNITY_EDITOR_WIN
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:UNITY_TEAM_LICENSE
+"Assets/Code/In Class/Dog.cs"
 "Assets/Code/In Class/FloatData.cs"
 "Assets/Code/In Class/Test.cs"
 "Assets/Code/In Class/TriggerEvents.cs"

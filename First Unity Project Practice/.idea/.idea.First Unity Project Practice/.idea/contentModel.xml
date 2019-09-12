@@ -8,6 +8,8 @@
       <e p="Assets" t="Include">
         <e p="Code" t="Include">
           <e p="In Class" t="Include">
+            <e p="CatClass.cs" t="Include" />
+            <e p="Dog.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
             <e p="Test.cs" t="Include" />
             <e p="TriggerEvents.cs" t="Include" />
