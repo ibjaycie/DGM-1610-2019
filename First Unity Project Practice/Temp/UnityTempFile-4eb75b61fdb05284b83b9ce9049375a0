@@ -181,6 +181,7 @@
 "Assets/Code/In Class/CatClass.cs"
 "Assets/Code/In Class/Dog.cs"
 "Assets/Code/In Class/FloatData.cs"
+"Assets/Code/In Class/LightOnOff.cs"
 "Assets/Code/In Class/MouseEvents.cs"
 "Assets/Code/In Class/ParticleControl.cs"
 "Assets/Code/In Class/ParticlesOnMouseDown.cs"

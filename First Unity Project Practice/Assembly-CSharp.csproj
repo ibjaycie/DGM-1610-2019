@@ -61,7 +61,9 @@
   <ItemGroup>
     <Compile Include="Assets\Code\In Class\CatClass.cs" />
     <Compile Include="Assets\Code\In Class\Dog.cs" />
+    <Compile Include="Assets\Code\In Class\ExplodingSun.cs" />
     <Compile Include="Assets\Code\In Class\FloatData.cs" />
+    <Compile Include="Assets\Code\In Class\LightOnOff.cs" />
     <Compile Include="Assets\Code\In Class\MouseEvents.cs" />
     <Compile Include="Assets\Code\In Class\ParticleControl.cs" />
     <Compile Include="Assets\Code\In Class\ParticlesOnMouseDown.cs" />
