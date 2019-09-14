@@ -79,6 +79,8 @@
     <Compile Include="Assets\Code\Player Scripts\CubeMove.cs" />
     <Compile Include="Assets\Code\Player Scripts\DestroyEverything.cs" />
     <Compile Include="Assets\Code\Player Scripts\EnemyExplode.cs" />
+    <Compile Include="Assets\Code\Player Scripts\EnemyHealthBar.cs" />
+    <Compile Include="Assets\Code\Player Scripts\ExplodingEnemies.cs" />
     <Compile Include="Assets\Code\Player Scripts\ParticleSystemDestroy.cs" />
     <Compile Include="Assets\Code\Player Scripts\PlayerOneEvent.cs" />
     <Compile Include="Assets\Code\Player Scripts\PracticeFloatData.cs" />

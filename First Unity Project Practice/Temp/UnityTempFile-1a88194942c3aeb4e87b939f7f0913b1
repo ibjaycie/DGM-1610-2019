@@ -197,6 +197,8 @@
 "Assets/Code/Player Scripts/CapsuleScript.cs"
 "Assets/Code/Player Scripts/CubeMove.cs"
 "Assets/Code/Player Scripts/DestroyEverything.cs"
+"Assets/Code/Player Scripts/EnemyExplode.cs"
+"Assets/Code/Player Scripts/EnemyHealthBar.cs"
 "Assets/Code/Player Scripts/ParticleSystemDestroy.cs"
 "Assets/Code/Player Scripts/PlayerOneEvent.cs"
 "Assets/Code/Player Scripts/PracticeFloatData.cs"
