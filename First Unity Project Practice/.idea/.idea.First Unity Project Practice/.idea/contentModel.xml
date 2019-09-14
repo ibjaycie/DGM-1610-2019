@@ -33,6 +33,7 @@
             <e p="EnemyHealthBar.cs" t="Include" />
             <e p="ExplodingEnemies.cs" t="Include" />
             <e p="ParticleSystemDestroy.cs" t="Include" />
+            <e p="PlayerOne.cs" t="Include" />
             <e p="PlayerOneEvent.cs" t="Include" />
             <e p="PracticeFloatData.cs" t="Include" />
             <e p="PracticeTriggerEvents.cs" t="Include" />

@@ -82,6 +82,7 @@
     <Compile Include="Assets\Code\Player Scripts\EnemyHealthBar.cs" />
     <Compile Include="Assets\Code\Player Scripts\ExplodingEnemies.cs" />
     <Compile Include="Assets\Code\Player Scripts\ParticleSystemDestroy.cs" />
+    <Compile Include="Assets\Code\Player Scripts\PlayerOne.cs" />
     <Compile Include="Assets\Code\Player Scripts\PlayerOneEvent.cs" />
     <Compile Include="Assets\Code\Player Scripts\PracticeFloatData.cs" />
     <Compile Include="Assets\Code\Player Scripts\PracticeTriggerEvents.cs" />
