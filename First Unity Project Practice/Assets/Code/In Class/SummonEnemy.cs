@@ -8,7 +8,7 @@ public class SummonEnemy : MonoBehaviour
 {
 	public UnityEvent enemyAppear;
 
-	private void OnMouseExit()
+	private void OnMouseEnter()
 	{
 		enemyAppear.Invoke();
 	}
@@ -16,5 +16,6 @@ public class SummonEnemy : MonoBehaviour
 	private void Start()
 	{
 		//I want the cube to be invisible when the game starts
+		//Update: figured it out. Don't need to put it in start just turn off the cube in unity. 
 	}
 }

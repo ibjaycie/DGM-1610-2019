@@ -8,7 +8,7 @@ public class MysterySwitch : MonoBehaviour
 {
 	public GameObject enemies;
 
-	private void OnMouseDown()
+	private void OnMouseEnter()
 	{
 		print("We have been summoned");
 	}
