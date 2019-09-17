@@ -14,6 +14,7 @@ public class movement : MonoBehaviour
 	{
 		//transform.Translate(position*Time.deltaTime);
 		position.x = speed*Input.GetAxis("Horizontal");
+		
 		if (!controller.isGrounded)
 		{
 			position.y -= gravity;
