@@ -203,6 +203,7 @@
 "Assets/Code/Player Scripts/ParticleSystemDestroy.cs"
 "Assets/Code/Player Scripts/PlayerOne.cs"
 "Assets/Code/Player Scripts/PlayerOneEvent.cs"
+"Assets/Code/Player Scripts/PlayerTriggerOffSwitch.cs"
 "Assets/Code/Player Scripts/PracticeFloatData.cs"
 "Assets/Code/Player Scripts/PracticeTriggerEvents.cs"
 "Assets/Code/Player Scripts/PressButton.cs"
