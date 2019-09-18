@@ -202,6 +202,7 @@
 "Assets/Code/Player Scripts/EnemyHealthBar.cs"
 "Assets/Code/Player Scripts/ExplodingEnemies.cs"
 "Assets/Code/Player Scripts/ParticleSystemDestroy.cs"
+"Assets/Code/Player Scripts/PlayerCapsuleTwo.cs"
 "Assets/Code/Player Scripts/PlayerOne.cs"
 "Assets/Code/Player Scripts/PlayerOneEvent.cs"
 "Assets/Code/Player Scripts/PlayerTriggerOffSwitch.cs"

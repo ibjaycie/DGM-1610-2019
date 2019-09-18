@@ -34,6 +34,7 @@
             <e p="EnemyHealthBar.cs" t="Include" />
             <e p="ExplodingEnemies.cs" t="Include" />
             <e p="ParticleSystemDestroy.cs" t="Include" />
+            <e p="PlayerCapsuleTwo.cs" t="Include" />
             <e p="PlayerOne.cs" t="Include" />
             <e p="PlayerOneEvent.cs" t="Include" />
             <e p="PlayerTriggerOffSwitch.cs" t="Include" />
