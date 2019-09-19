@@ -66,6 +66,7 @@
     <Compile Include="Assets\Code\In Class\LightOnOff.cs" />
     <Compile Include="Assets\Code\In Class\MouseEvents.cs" />
     <Compile Include="Assets\Code\In Class\movement.cs" />
+    <Compile Include="Assets\Code\In Class\MovementInClass.cs" />
     <Compile Include="Assets\Code\In Class\MysterySwitch.cs" />
     <Compile Include="Assets\Code\In Class\ParticleControl.cs" />
     <Compile Include="Assets\Code\In Class\ParticlesOnMouseDown.cs" />

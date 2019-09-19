@@ -15,6 +15,7 @@
             <e p="LightOnOff.cs" t="Include" />
             <e p="MouseEvents.cs" t="Include" />
             <e p="movement.cs" t="Include" />
+            <e p="MovementInClass.cs" t="Include" />
             <e p="MysterySwitch.cs" t="Include" />
             <e p="ParticleControl.cs" t="Include" />
             <e p="ParticlesOnMouseDown.cs" t="Include" />

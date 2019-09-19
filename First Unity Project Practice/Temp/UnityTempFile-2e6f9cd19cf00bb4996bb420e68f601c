@@ -185,6 +185,7 @@
 "Assets/Code/In Class/LightOnOff.cs"
 "Assets/Code/In Class/MouseEvents.cs"
 "Assets/Code/In Class/movement.cs"
+"Assets/Code/In Class/MovementInClass.cs"
 "Assets/Code/In Class/MysterySwitch.cs"
 "Assets/Code/In Class/ParticleControl.cs"
 "Assets/Code/In Class/ParticlesOnMouseDown.cs"
