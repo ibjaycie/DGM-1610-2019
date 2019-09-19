@@ -7,8 +7,11 @@ using UnityEngine;
 public class MovementInClass : MonoBehaviour
 {
     private CharacterController controller;
-    public float moveSpeed = 10f, gravity = 9.81f, jumpSpeed = 30f;
     private Vector3 position;
+    
+    public float moveSpeed = 10f, gravity = 9.81f, jumpSpeed = 30f;
+    private int jumpCount;
+    public int jumpCountMax = 2; 
 
     private void Start()
     {
@@ -22,14 +25,16 @@ public class MovementInClass : MonoBehaviour
         position.y -= gravity; //-= because it will pull the object down by the speed of gravity rather than
         //push it away. 
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
         {
             position.y = jumpSpeed;
+            jumpCount++;
         }
 
         if (controller.isGrounded)
         {
             position.y = 0f;
+            jumpCount = 0;
         }
         
         controller.Move(position*Time.deltaTime);
