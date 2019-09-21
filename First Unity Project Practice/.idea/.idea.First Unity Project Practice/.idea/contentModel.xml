@@ -31,9 +31,11 @@
             <e p="CapsuleScript.cs" t="Include" />
             <e p="CubeMove.cs" t="Include" />
             <e p="DestroyEverything.cs" t="Include" />
+            <e p="DoubleJumpPowerUp.cs" t="Include" />
             <e p="EnemyExplode.cs" t="Include" />
             <e p="EnemyHealthBar.cs" t="Include" />
             <e p="ExplodingEnemies.cs" t="Include" />
+            <e p="OnTriggerPowerUp.cs" t="Include" />
             <e p="ParticleSystemDestroy.cs" t="Include" />
             <e p="PlayerCapsuleTwo.cs" t="Include" />
             <e p="PlayerOne.cs" t="Include" />

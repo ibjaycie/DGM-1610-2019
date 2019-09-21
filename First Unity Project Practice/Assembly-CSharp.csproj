@@ -80,9 +80,11 @@
     <Compile Include="Assets\Code\Player Scripts\CapsuleScript.cs" />
     <Compile Include="Assets\Code\Player Scripts\CubeMove.cs" />
     <Compile Include="Assets\Code\Player Scripts\DestroyEverything.cs" />
+    <Compile Include="Assets\Code\Player Scripts\DoubleJumpPowerUp.cs" />
     <Compile Include="Assets\Code\Player Scripts\EnemyExplode.cs" />
     <Compile Include="Assets\Code\Player Scripts\EnemyHealthBar.cs" />
     <Compile Include="Assets\Code\Player Scripts\ExplodingEnemies.cs" />
+    <Compile Include="Assets\Code\Player Scripts\OnTriggerPowerUp.cs" />
     <Compile Include="Assets\Code\Player Scripts\ParticleSystemDestroy.cs" />
     <Compile Include="Assets\Code\Player Scripts\PlayerCapsuleTwo.cs" />
     <Compile Include="Assets\Code\Player Scripts\PlayerOne.cs" />
