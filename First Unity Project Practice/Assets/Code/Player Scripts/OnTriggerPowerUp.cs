@@ -9,8 +9,22 @@ public class OnTriggerPowerUp : MonoBehaviour
 
 	private void OnTriggerEnter(Collider other)
 	{
+		if (other.CompareTag("Player"))
+		{
+			Pickup();
+		}
+		
 		triggerPowerUpEvent.Invoke();
+	
 	}
+
+	private void Pickup()
+	{
+		print("Power Up Picked Up");
+	}
+
 }
-//okay I made it this far, an event has been made where the player  triggers it and 
-//pick it up. that's all for today. 
+//9/21/19 Added the pickup function with the help of Brackeys tutoiral, but it's not printing after it's 
+//picked up.. . . .
+//okay I made it this far, an event has been made where the player triggers it and 
+//picks it up. that's all for today. 
