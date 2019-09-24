@@ -12,6 +12,8 @@ public class OnTriggerPowerUp : MonoBehaviour
 		if (other.CompareTag("Player"))
 		{
 			Pickup();
+			Debug.Log("Power Up Picked Up"); //Doesn't work why?
+			print("Power Up picked Up yay"); //Doesn't work why?!?!?!?
 		}
 		
 		triggerPowerUpEvent.Invoke();
@@ -20,7 +22,7 @@ public class OnTriggerPowerUp : MonoBehaviour
 
 	private void Pickup()
 	{
-		print("Power Up Picked Up");
+		print("Power Up Picked Up"); //Doesn't Work why?
 	}
 
 }
