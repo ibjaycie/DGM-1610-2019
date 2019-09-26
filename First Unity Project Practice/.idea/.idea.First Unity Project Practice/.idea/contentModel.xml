@@ -12,6 +12,7 @@
             <e p="Dog.cs" t="Include" />
             <e p="ExplodingSun.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
+            <e p="Functions.cs" t="Include" />
             <e p="GetFruit.cs" t="Include" />
             <e p="IfStatements.cs" t="Include" />
             <e p="LightOnOff.cs" t="Include" />

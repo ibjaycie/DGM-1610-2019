@@ -63,6 +63,7 @@
     <Compile Include="Assets\Code\In Class\Dog.cs" />
     <Compile Include="Assets\Code\In Class\ExplodingSun.cs" />
     <Compile Include="Assets\Code\In Class\FloatData.cs" />
+    <Compile Include="Assets\Code\In Class\Functions.cs" />
     <Compile Include="Assets\Code\In Class\GetFruit.cs" />
     <Compile Include="Assets\Code\In Class\IfStatements.cs" />
     <Compile Include="Assets\Code\In Class\LightOnOff.cs" />
