@@ -4,6 +4,8 @@
 -langversion:4
 -out:Temp/Assembly-CSharp.dll
 -nostdlib
+-r:Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
+-r:Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
 -r:"C:\Program Files\Unity Hub\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"C:\Program Files\Unity Hub\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
 -r:"C:\Program Files\Unity Hub\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -64,8 +66,6 @@
 -r:"C:\Program Files\Unity Hub\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
 -r:"C:\Program Files\Unity Hub\2018.1.9f2\Editor\Data\Managed/UnityEditor.dll"
 -r:"C:\Program Files\Unity Hub\2018.1.9f2\Editor\Data\Managed/Unity.Locator.dll"
--r:Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
--r:Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
 -r:"C:/Program Files/Unity Hub/2018.1.9f2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"C:/Program Files/Unity Hub/2018.1.9f2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
 -r:"C:/Program Files/Unity Hub/2018.1.9f2/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
@@ -200,6 +200,7 @@
 "Assets/Code/Player Scripts/BigBoss.cs"
 "Assets/Code/Player Scripts/BulletTriggerEvent.cs"
 "Assets/Code/Player Scripts/CapsuleScript.cs"
+"Assets/Code/Player Scripts/CharacterInfo.cs"
 "Assets/Code/Player Scripts/CubeMove.cs"
 "Assets/Code/Player Scripts/DestroyEverything.cs"
 "Assets/Code/Player Scripts/DoubleJumpPowerUp.cs"
@@ -216,4 +217,5 @@
 "Assets/Code/Player Scripts/PracticeTriggerEvents.cs"
 "Assets/Code/Player Scripts/PressButton.cs"
 "Assets/Code/Player Scripts/TheGoodButton.cs"
+Assets/Prefabs/CharacterDisplay.cs
 -lib:"C:\Program Files\Unity Hub\2018.1.9f2\Editor\Data\MonoBleedingEdge\lib\mono\unity"

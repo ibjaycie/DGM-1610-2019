@@ -178,6 +178,7 @@
 -define:UNITY_EDITOR_WIN
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:UNITY_TEAM_LICENSE
+Assets/CharacterDisplay.cs
 "Assets/Code/In Class/CatClass.cs"
 "Assets/Code/In Class/Dog.cs"
 "Assets/Code/In Class/ExplodingSun.cs"
@@ -200,6 +201,7 @@
 "Assets/Code/Player Scripts/BigBoss.cs"
 "Assets/Code/Player Scripts/BulletTriggerEvent.cs"
 "Assets/Code/Player Scripts/CapsuleScript.cs"
+"Assets/Code/Player Scripts/CharacterInfo.cs"
 "Assets/Code/Player Scripts/CubeMove.cs"
 "Assets/Code/Player Scripts/DestroyEverything.cs"
 "Assets/Code/Player Scripts/DoubleJumpPowerUp.cs"

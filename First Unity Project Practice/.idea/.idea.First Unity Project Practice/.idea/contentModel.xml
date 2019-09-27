@@ -6,6 +6,7 @@
     <e p="C:\Users\ibjaycie\Coding Practice\Practicing-Code\DGM-1610-2019\First Unity Project Practice" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="CharacterDisplay.cs" t="Include" />
         <e p="Code" t="Include">
           <e p="In Class" t="Include">
             <e p="CatClass.cs" t="Include" />
@@ -32,6 +33,7 @@
             <e p="BigBoss.cs" t="Include" />
             <e p="BulletTriggerEvent.cs" t="Include" />
             <e p="CapsuleScript.cs" t="Include" />
+            <e p="CharacterInfo.cs" t="Include" />
             <e p="CubeMove.cs" t="Include" />
             <e p="DestroyEverything.cs" t="Include" />
             <e p="DoubleJumpPowerUp.cs" t="Include" />
