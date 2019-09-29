@@ -6,9 +6,9 @@ public class characterDisplay : MonoBehaviour
 {
 
 	public CharacterInfo character;
-	void Start () 
-	{
-		
+	void Start ()
+	{ 
+		print(character.characterName);
 	}
 	
 	

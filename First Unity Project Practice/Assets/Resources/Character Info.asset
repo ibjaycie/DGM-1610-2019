@@ -11,4 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1c9e9ed216145f48833d0b901c6622d, type: 3}
   m_Name: Character Info
   m_EditorClassIdentifier: 
-  jaycieLee: 
+  characterName: Jaycie
+  characterDescription: 
+  health: 0
+  speed: 0
+  weapon: {fileID: 0}
+  artwork: {fileID: 0}
+  playerColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}

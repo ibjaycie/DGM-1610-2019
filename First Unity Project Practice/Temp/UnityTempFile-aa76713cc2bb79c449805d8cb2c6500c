@@ -178,7 +178,7 @@
 -define:UNITY_EDITOR_WIN
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:UNITY_TEAM_LICENSE
-Assets/CharacterDisplay.cs
+Assets/characterDisplay.cs
 "Assets/Code/In Class/CatClass.cs"
 "Assets/Code/In Class/Dog.cs"
 "Assets/Code/In Class/ExplodingSun.cs"
