@@ -67,6 +67,7 @@
     <Compile Include="Assets\Code\In Class\Functions.cs" />
     <Compile Include="Assets\Code\In Class\GetFruit.cs" />
     <Compile Include="Assets\Code\In Class\IfStatements.cs" />
+    <Compile Include="Assets\Code\In Class\IntDataObject.cs" />
     <Compile Include="Assets\Code\In Class\LightOnOff.cs" />
     <Compile Include="Assets\Code\In Class\MouseEvents.cs" />
     <Compile Include="Assets\Code\In Class\movement.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="Assets\Code\In Class\SummonEnemy.cs" />
     <Compile Include="Assets\Code\In Class\Test.cs" />
     <Compile Include="Assets\Code\In Class\TriggerEvents.cs" />
+    <Compile Include="Assets\Code\In Class\UiTextController.cs" />
     <Compile Include="Assets\Code\In Class\Variables.cs" />
     <Compile Include="Assets\Code\In Class\VarsClass.cs" />
     <Compile Include="Assets\Code\Player Scripts\BigBoss.cs" />

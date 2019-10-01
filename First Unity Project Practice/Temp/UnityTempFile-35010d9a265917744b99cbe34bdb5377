@@ -186,6 +186,7 @@ Assets/characterDisplay.cs
 "Assets/Code/In Class/Functions.cs"
 "Assets/Code/In Class/GetFruit.cs"
 "Assets/Code/In Class/IfStatements.cs"
+"Assets/Code/In Class/IntDataObject.cs"
 "Assets/Code/In Class/LightOnOff.cs"
 "Assets/Code/In Class/MouseEvents.cs"
 "Assets/Code/In Class/movement.cs"
