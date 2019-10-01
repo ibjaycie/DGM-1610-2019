@@ -19,6 +19,7 @@ public class OnTriggerPowerUp : MonoBehaviour
 
 	private void Pickup()
 	{
+		Instantiate(pickUpPowerUp, transform.position, transform.rotation); //used with help of Brackey's, not currently working in unity. 
 		//print("Picked Up Power Up");
 		Destroy(gameObject);
 	}
