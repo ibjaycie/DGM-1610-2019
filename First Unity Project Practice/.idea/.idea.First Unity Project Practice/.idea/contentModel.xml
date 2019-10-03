@@ -18,6 +18,7 @@
             <e p="IfStatements.cs" t="Include" />
             <e p="IntDataObject.cs" t="Include" />
             <e p="LightOnOff.cs" t="Include" />
+            <e p="MonoEvents.cs" t="Include" />
             <e p="MouseEvents.cs" t="Include" />
             <e p="movement.cs" t="Include" />
             <e p="MovementInClass.cs" t="Include" />
@@ -27,6 +28,7 @@
             <e p="SummonEnemy.cs" t="Include" />
             <e p="Test.cs" t="Include" />
             <e p="TriggerEvents.cs" t="Include" />
+            <e p="UiImageController.cs" t="Include" />
             <e p="UiTextController.cs" t="Include" />
             <e p="Variables.cs" t="Include" />
             <e p="VarsClass.cs" t="Include" />

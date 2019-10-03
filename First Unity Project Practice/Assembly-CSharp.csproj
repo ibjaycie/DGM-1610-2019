@@ -69,6 +69,7 @@
     <Compile Include="Assets\Code\In Class\IfStatements.cs" />
     <Compile Include="Assets\Code\In Class\IntDataObject.cs" />
     <Compile Include="Assets\Code\In Class\LightOnOff.cs" />
+    <Compile Include="Assets\Code\In Class\MonoEvents.cs" />
     <Compile Include="Assets\Code\In Class\MouseEvents.cs" />
     <Compile Include="Assets\Code\In Class\movement.cs" />
     <Compile Include="Assets\Code\In Class\MovementInClass.cs" />
@@ -78,6 +79,7 @@
     <Compile Include="Assets\Code\In Class\SummonEnemy.cs" />
     <Compile Include="Assets\Code\In Class\Test.cs" />
     <Compile Include="Assets\Code\In Class\TriggerEvents.cs" />
+    <Compile Include="Assets\Code\In Class\UiImageController.cs" />
     <Compile Include="Assets\Code\In Class\UiTextController.cs" />
     <Compile Include="Assets\Code\In Class\Variables.cs" />
     <Compile Include="Assets\Code\In Class\VarsClass.cs" />

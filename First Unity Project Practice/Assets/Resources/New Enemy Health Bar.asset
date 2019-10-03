@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e15a3c6bb46bdd645aa16af2457f0069, type: 3}
   m_Name: New Enemy Health Bar
   m_EditorClassIdentifier: 
-  value: 40
+  value: 0

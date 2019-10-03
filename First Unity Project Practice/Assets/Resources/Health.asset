@@ -11,4 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 003de02e2a49dd94c9abe567dbbf6158, type: 3}
   m_Name: Health
   m_EditorClassIdentifier: 
-  value: -6155
+  value: 0.9
+  minValue: 0
+  maxValue: 1

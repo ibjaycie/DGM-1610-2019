@@ -197,6 +197,7 @@ Assets/characterDisplay.cs
 "Assets/Code/In Class/SummonEnemy.cs"
 "Assets/Code/In Class/Test.cs"
 "Assets/Code/In Class/TriggerEvents.cs"
+"Assets/Code/In Class/UiImageController.cs"
 "Assets/Code/In Class/UiTextController.cs"
 "Assets/Code/In Class/Variables.cs"
 "Assets/Code/In Class/VarsClass.cs"
