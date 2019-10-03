@@ -4,17 +4,17 @@ using UnityEngine;
 public class OnTriggerPowerUp : MonoBehaviour
 {
 	public GameObject pickUpPowerUp;
-
+	public ParticleSystem particleEmit;
 	private void OnTriggerEnter(Collider other)
 	{
+		
 		
 		if (other.CompareTag("Player"))
 		{
 			Pickup();
-			
+			particleEmit.Emit(100); //YES IT WORKS AND I DID IT WITHOUT BRACKEY WOOT WOOT!!!
+
 		}
-		
-	
 	}
 
 	private void Pickup()

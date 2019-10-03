@@ -48,6 +48,7 @@
             <e p="PlayerOne.cs" t="Include" />
             <e p="PlayerOneEvent.cs" t="Include" />
             <e p="PlayerTriggerOffSwitch.cs" t="Include" />
+            <e p="PowerUpParticles.cs" t="Include" />
             <e p="PracticeFloatData.cs" t="Include" />
             <e p="PracticeTriggerEvents.cs" t="Include" />
             <e p="PressButton.cs" t="Include" />

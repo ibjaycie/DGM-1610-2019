@@ -258,7 +258,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &225670753
 GameObject:
@@ -601,7 +601,7 @@ RectTransform:
   m_Children:
   - {fileID: 979839295}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -748,7 +748,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4980005255279848, guid: c26d0c2143cea4a4e909714a16a1c71b, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114648538448326536, guid: c26d0c2143cea4a4e909714a16a1c71b,
         type: 2}
@@ -1065,7 +1065,7 @@ GameObject:
   - component: {fileID: 1358687418}
   m_Layer: 0
   m_Name: Power Up Effect Particles
-  m_TagString: Untagged
+  m_TagString: Particle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1136,7 +1136,7 @@ ParticleSystem:
   lengthInSec: 5
   simulationSpeed: 1
   stopAction: 0
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 0
   useUnscaledTime: 0
@@ -5967,6 +5967,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickUpPowerUp: {fileID: 1358687417}
+  particleEmit: {fileID: 1358687419}
 --- !u!1 &1995684444
 GameObject:
   m_ObjectHideFlags: 0
