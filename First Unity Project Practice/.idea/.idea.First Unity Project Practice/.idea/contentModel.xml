@@ -44,12 +44,14 @@
             <e p="EnemyExplode.cs" t="Include" />
             <e p="EnemyHealthBar.cs" t="Include" />
             <e p="ExplodingEnemies.cs" t="Include" />
+            <e p="FloatDataPowerUp.cs" t="Include" />
             <e p="OnTriggerPowerUp.cs" t="Include" />
             <e p="ParticleSystemDestroy.cs" t="Include" />
             <e p="PlayerCapsuleTwo.cs" t="Include" />
             <e p="PlayerOne.cs" t="Include" />
             <e p="PlayerOneEvent.cs" t="Include" />
             <e p="PlayerTriggerOffSwitch.cs" t="Include" />
+            <e p="PowerUpHealthIncrease.cs" t="Include" />
             <e p="PowerUpParticles.cs" t="Include" />
             <e p="PracticeFloatData.cs" t="Include" />
             <e p="PracticeTriggerEvents.cs" t="Include" />

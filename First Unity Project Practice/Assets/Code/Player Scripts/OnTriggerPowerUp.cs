@@ -1,8 +1,10 @@
 ﻿
 using UnityEngine;
+using UnityEngine.Events;
 
 public class OnTriggerPowerUp : MonoBehaviour
 {
+	
 	public GameObject pickUpPowerUp;
 	public ParticleSystem particleEmit;
 	private void OnTriggerEnter(Collider other)
@@ -19,8 +21,7 @@ public class OnTriggerPowerUp : MonoBehaviour
 
 	private void Pickup()
 	{
-		Instantiate(pickUpPowerUp, transform.position, transform.rotation); //used with help of Brackey's, not currently working in unity. 
-		//print("Picked Up Power Up");
+		Instantiate(pickUpPowerUp, transform.position, transform.rotation);
 		Destroy(gameObject);
 	}
 
