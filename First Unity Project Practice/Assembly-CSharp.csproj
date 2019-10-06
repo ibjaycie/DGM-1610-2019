@@ -104,6 +104,8 @@
     <Compile Include="Assets\Code\Player Scripts\PowerUpParticles.cs" />
     <Compile Include="Assets\Code\Player Scripts\PracticeFloatData.cs" />
     <Compile Include="Assets\Code\Player Scripts\PracticeTriggerEvents.cs" />
+    <Compile Include="Assets\Code\Player Scripts\PracticeUiImageController.cs" />
+    <Compile Include="Assets\Code\Player Scripts\PracticeUiTextController.cs" />
     <Compile Include="Assets\Code\Player Scripts\PressButton.cs" />
     <Compile Include="Assets\Code\Player Scripts\TheGoodButton.cs" />
     <Reference Include="UnityEditor.StandardEvents">
