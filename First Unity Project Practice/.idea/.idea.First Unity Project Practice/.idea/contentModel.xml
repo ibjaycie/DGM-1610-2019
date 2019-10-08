@@ -54,6 +54,7 @@
             <e p="PowerUpHealthIncrease.cs" t="Include" />
             <e p="PowerUpParticles.cs" t="Include" />
             <e p="PracticeFloatData.cs" t="Include" />
+            <e p="PracticeInstansiate.cs" t="Include" />
             <e p="PracticeTriggerEvents.cs" t="Include" />
             <e p="PracticeUiImageController.cs" t="Include" />
             <e p="PracticeUiTextController.cs" t="Include" />
