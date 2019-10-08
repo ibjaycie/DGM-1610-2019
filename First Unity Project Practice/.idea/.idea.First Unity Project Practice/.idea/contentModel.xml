@@ -25,6 +25,7 @@
             <e p="MysterySwitch.cs" t="Include" />
             <e p="ParticleControl.cs" t="Include" />
             <e p="ParticlesOnMouseDown.cs" t="Include" />
+            <e p="PlayerData.cs" t="Include" />
             <e p="SummonEnemy.cs" t="Include" />
             <e p="Test.cs" t="Include" />
             <e p="TriggerEvents.cs" t="Include" />

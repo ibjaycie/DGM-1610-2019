@@ -76,6 +76,7 @@
     <Compile Include="Assets\Code\In Class\MysterySwitch.cs" />
     <Compile Include="Assets\Code\In Class\ParticleControl.cs" />
     <Compile Include="Assets\Code\In Class\ParticlesOnMouseDown.cs" />
+    <Compile Include="Assets\Code\In Class\PlayerData.cs" />
     <Compile Include="Assets\Code\In Class\SummonEnemy.cs" />
     <Compile Include="Assets\Code\In Class\Test.cs" />
     <Compile Include="Assets\Code\In Class\TriggerEvents.cs" />

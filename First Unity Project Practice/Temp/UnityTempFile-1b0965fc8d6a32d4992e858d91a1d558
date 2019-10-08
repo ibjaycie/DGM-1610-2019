@@ -195,6 +195,7 @@ Assets/characterDisplay.cs
 "Assets/Code/In Class/MysterySwitch.cs"
 "Assets/Code/In Class/ParticleControl.cs"
 "Assets/Code/In Class/ParticlesOnMouseDown.cs"
+"Assets/Code/In Class/PlayerData.cs"
 "Assets/Code/In Class/SummonEnemy.cs"
 "Assets/Code/In Class/Test.cs"
 "Assets/Code/In Class/TriggerEvents.cs"
