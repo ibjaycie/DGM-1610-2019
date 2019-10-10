@@ -4,6 +4,8 @@
 -langversion:4
 -out:Temp/Assembly-CSharp.dll
 -nostdlib
+-r:Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
+-r:Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
 -r:"C:\Program Files\Unity Hub\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"C:\Program Files\Unity Hub\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
 -r:"C:\Program Files\Unity Hub\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -64,8 +66,6 @@
 -r:"C:\Program Files\Unity Hub\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
 -r:"C:\Program Files\Unity Hub\2018.1.9f2\Editor\Data\Managed/UnityEditor.dll"
 -r:"C:\Program Files\Unity Hub\2018.1.9f2\Editor\Data\Managed/Unity.Locator.dll"
--r:Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
--r:Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
 -r:"C:/Program Files/Unity Hub/2018.1.9f2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"C:/Program Files/Unity Hub/2018.1.9f2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
 -r:"C:/Program Files/Unity Hub/2018.1.9f2/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
@@ -180,9 +180,10 @@
 -define:UNITY_TEAM_LICENSE
 Assets/characterDisplay.cs
 "Assets/Code/In Class/CatClass.cs"
+"Assets/Code/In Class/Data Scripts/FloatData.cs"
+"Assets/Code/In Class/Data Scripts/GameArtClass.cs"
 "Assets/Code/In Class/Dog.cs"
 "Assets/Code/In Class/ExplodingSun.cs"
-"Assets/Code/In Class/FloatData.cs"
 "Assets/Code/In Class/Functions.cs"
 "Assets/Code/In Class/GetFruit.cs"
 "Assets/Code/In Class/IfStatements.cs"

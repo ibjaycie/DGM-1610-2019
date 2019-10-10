@@ -10,13 +10,18 @@
         <e p="Code" t="Include">
           <e p="In Class" t="Include">
             <e p="CatClass.cs" t="Include" />
+            <e p="Data Scripts" t="Include">
+              <e p="ClothesData.cs" t="Include" />
+              <e p="FloatData.cs" t="Include" />
+              <e p="GameArtClass.cs" t="Include" />
+              <e p="IntDataObject.cs" t="Include" />
+              <e p="WeaponData.cs" t="Include" />
+            </e>
             <e p="Dog.cs" t="Include" />
             <e p="ExplodingSun.cs" t="Include" />
-            <e p="FloatData.cs" t="Include" />
             <e p="Functions.cs" t="Include" />
             <e p="GetFruit.cs" t="Include" />
             <e p="IfStatements.cs" t="Include" />
-            <e p="IntDataObject.cs" t="Include" />
             <e p="LightOnOff.cs" t="Include" />
             <e p="MonoEvents.cs" t="Include" />
             <e p="MouseEvents.cs" t="Include" />
