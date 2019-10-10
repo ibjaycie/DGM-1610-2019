@@ -1,12 +1,19 @@
 ﻿
+using System;
 using UnityEngine;
 [CreateAssetMenu]
 	class PlayerData : ScriptableObject //allow people to select and use characters with different
 	//attributes, used to configure a prefab. ways we can generate characters on our screen. 
 	{
+		public String characterName;
 		public Sprite sprite; //sprites are 2D assets
 		public Color color;
-		public GameObject prefab; 
+		public GameObject prefab;
+		public float speed = 10f;
+		public float maximumHealth = 100f;
+		public Sprite characterDesign;
+		public Sprite equippedWeapon;
+		
 		//we are going to use this object as a selector tool. we are saying that all players
 		//in our game have a sprite, color, and prefab. all the same. Why? because it will be
 		//easy to configure players. 
@@ -19,6 +26,10 @@ using UnityEngine;
 			newSprite.sprite = sprite;
 			newSprite.color = color; //when we instansiate it tell it find a sprite renderer, once it does
 			//we tell it what color it is for the color we picked. 
+			newSprite.sprite = equippedWeapon;
+			newSprite.sprite = characterDesign;
+			//newSprite. = characterName; //It won't let me call just a "String" it wants me to call 
+			//"ToString". Don't know why just yet. 
 		}
 		
 		//what should happen is when I press play, the player will change to either a red diamond
