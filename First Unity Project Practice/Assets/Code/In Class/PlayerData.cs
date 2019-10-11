@@ -25,11 +25,12 @@ using UnityEngine;
 		public void InstancePlayer() //we need to instansiate a prefab adn assign a color to it
 		{
 			var newPlayer = Instantiate(prefab); //Here I need to add something that will Instantiate the COLOR//it's going to take the prefab and put it on the screen.
-			//var newSprite = newPlayer.GetComponentInChildren<SpriteRenderer>();
+			var newSprite = newPlayer.GetComponentInChildren<SpriteRenderer>(); //What is this even doing?
 			//use get component in children because the sprite renderer is a child of the main object in unity. 
-			
-			//newSprite.color = color; //when we instansiate it tell it find a sprite renderer, once it does
-			//we tell it what color it is for the color we picked. 
+
+			newSprite.color = color; //when we instantiates it tell it find a sprite renderer, once it does
+			//we tell it what color it is for the color we picked. //October 11 2019 I had the above turned off
+			//and now it instantiates the color! But now how to do I choose a player. 
 			//newSprite.sprite = equippedWeapon;
 			//newSprite.sprite = characterDesign;
 			//newSprite. = characterName; //It won't let me call just a "String" it wants me to call 

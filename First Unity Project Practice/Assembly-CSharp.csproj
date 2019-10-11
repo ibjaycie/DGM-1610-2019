@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\characterDisplay.cs" />
+    <Compile Include="Assets\Code\Character Selection\CharacterSelector.cs" />
     <Compile Include="Assets\Code\In Class\CatClass.cs" />
     <Compile Include="Assets\Code\In Class\Data Scripts\ClothesData.cs" />
     <Compile Include="Assets\Code\In Class\Data Scripts\FloatData.cs" />
@@ -87,32 +88,32 @@
     <Compile Include="Assets\Code\In Class\UiTextController.cs" />
     <Compile Include="Assets\Code\In Class\Variables.cs" />
     <Compile Include="Assets\Code\In Class\VarsClass.cs" />
-    <Compile Include="Assets\Code\Player Scripts\BigBoss.cs" />
-    <Compile Include="Assets\Code\Player Scripts\BulletTriggerEvent.cs" />
-    <Compile Include="Assets\Code\Player Scripts\CapsuleScript.cs" />
-    <Compile Include="Assets\Code\Player Scripts\CharacterInfo.cs" />
-    <Compile Include="Assets\Code\Player Scripts\CubeMove.cs" />
-    <Compile Include="Assets\Code\Player Scripts\DestroyEverything.cs" />
-    <Compile Include="Assets\Code\Player Scripts\DoubleJumpPowerUp.cs" />
-    <Compile Include="Assets\Code\Player Scripts\EnemyExplode.cs" />
-    <Compile Include="Assets\Code\Player Scripts\EnemyHealthBar.cs" />
-    <Compile Include="Assets\Code\Player Scripts\ExplodingEnemies.cs" />
-    <Compile Include="Assets\Code\Player Scripts\FloatDataPowerUp.cs" />
-    <Compile Include="Assets\Code\Player Scripts\OnTriggerPowerUp.cs" />
-    <Compile Include="Assets\Code\Player Scripts\ParticleSystemDestroy.cs" />
-    <Compile Include="Assets\Code\Player Scripts\PlayerCapsuleTwo.cs" />
-    <Compile Include="Assets\Code\Player Scripts\PlayerOne.cs" />
-    <Compile Include="Assets\Code\Player Scripts\PlayerOneEvent.cs" />
-    <Compile Include="Assets\Code\Player Scripts\PlayerTriggerOffSwitch.cs" />
-    <Compile Include="Assets\Code\Player Scripts\PowerUpHealthIncrease.cs" />
-    <Compile Include="Assets\Code\Player Scripts\PowerUpParticles.cs" />
-    <Compile Include="Assets\Code\Player Scripts\PracticeFloatData.cs" />
-    <Compile Include="Assets\Code\Player Scripts\PracticeInstansiate.cs" />
-    <Compile Include="Assets\Code\Player Scripts\PracticeTriggerEvents.cs" />
-    <Compile Include="Assets\Code\Player Scripts\PracticeUiImageController.cs" />
-    <Compile Include="Assets\Code\Player Scripts\PracticeUiTextController.cs" />
-    <Compile Include="Assets\Code\Player Scripts\PressButton.cs" />
-    <Compile Include="Assets\Code\Player Scripts\TheGoodButton.cs" />
+    <Compile Include="Assets\Code\Practice Scripts\BigBoss.cs" />
+    <Compile Include="Assets\Code\Practice Scripts\BulletTriggerEvent.cs" />
+    <Compile Include="Assets\Code\Practice Scripts\CapsuleScript.cs" />
+    <Compile Include="Assets\Code\Practice Scripts\CharacterInfo.cs" />
+    <Compile Include="Assets\Code\Practice Scripts\CubeMove.cs" />
+    <Compile Include="Assets\Code\Practice Scripts\DestroyEverything.cs" />
+    <Compile Include="Assets\Code\Practice Scripts\DoubleJumpPowerUp.cs" />
+    <Compile Include="Assets\Code\Practice Scripts\EnemyExplode.cs" />
+    <Compile Include="Assets\Code\Practice Scripts\EnemyHealthBar.cs" />
+    <Compile Include="Assets\Code\Practice Scripts\ExplodingEnemies.cs" />
+    <Compile Include="Assets\Code\Practice Scripts\FloatDataPowerUp.cs" />
+    <Compile Include="Assets\Code\Practice Scripts\OnTriggerPowerUp.cs" />
+    <Compile Include="Assets\Code\Practice Scripts\ParticleSystemDestroy.cs" />
+    <Compile Include="Assets\Code\Practice Scripts\PlayerCapsuleTwo.cs" />
+    <Compile Include="Assets\Code\Practice Scripts\PlayerOne.cs" />
+    <Compile Include="Assets\Code\Practice Scripts\PlayerOneEvent.cs" />
+    <Compile Include="Assets\Code\Practice Scripts\PlayerTriggerOffSwitch.cs" />
+    <Compile Include="Assets\Code\Practice Scripts\PowerUpHealthIncrease.cs" />
+    <Compile Include="Assets\Code\Practice Scripts\PowerUpParticles.cs" />
+    <Compile Include="Assets\Code\Practice Scripts\PracticeFloatData.cs" />
+    <Compile Include="Assets\Code\Practice Scripts\PracticeInstansiate.cs" />
+    <Compile Include="Assets\Code\Practice Scripts\PracticeTriggerEvents.cs" />
+    <Compile Include="Assets\Code\Practice Scripts\PracticeUiImageController.cs" />
+    <Compile Include="Assets\Code\Practice Scripts\PracticeUiTextController.cs" />
+    <Compile Include="Assets\Code\Practice Scripts\PressButton.cs" />
+    <Compile Include="Assets\Code\Practice Scripts\TheGoodButton.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/ibjaycie/Coding Practice/Practicing-Code/DGM-1610-2019/First Unity Project Practice/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
