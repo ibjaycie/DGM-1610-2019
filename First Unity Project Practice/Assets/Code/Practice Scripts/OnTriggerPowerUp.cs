@@ -4,7 +4,7 @@ using UnityEngine.Events;
 
 public class OnTriggerPowerUp : MonoBehaviour
 {
-	
+	public float multiplier = 1.4f;
 	public GameObject pickUpPowerUp;
 	public ParticleSystem particleEmit;
 	private void OnTriggerEnter(Collider other)
@@ -13,15 +13,17 @@ public class OnTriggerPowerUp : MonoBehaviour
 		
 		if (other.CompareTag("Player"))
 		{
-			Pickup();
+			Pickup(other);
 			particleEmit.Emit(100); //YES IT WORKS AND I DID IT WITHOUT BRACKEY WOOT WOOT!!!
 
 		}
 	}
 
-	private void Pickup()
+	private void Pickup(Collider player)
 	{
 		Instantiate(pickUpPowerUp, transform.position, transform.rotation);
+		player.transform.localScale *= multiplier; //Added this with help of Brackey's tutorial
+		//Use this script as a reference to add the double jump power up and maybe even a time period for it!> 
 		Destroy(gameObject);
 	}
 

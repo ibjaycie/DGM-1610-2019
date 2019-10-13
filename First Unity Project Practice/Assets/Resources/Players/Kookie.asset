@@ -9,16 +9,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9004f87e8d617f54dbdfee9fcb3aa679, type: 3}
-  m_Name: Green Circle
+  m_Name: Kookie
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: b0566bf490dec2f4f859755ce400e8cf, type: 3}
-  color: {r: 0, g: 1, b: 0.0720849, a: 1}
+  sprite: {fileID: 21300000, guid: 5376533f8297c124b91ec44cd38de95f, type: 3}
+  color: {r: 1, g: 0, b: 0.8347168, a: 1}
   prefab: {fileID: 1039909608227910, guid: a5452c006ea129a41ba81e18c33b4706, type: 2}
-  characterName: Green Circle
+  characterName: Kookie
   health: {fileID: 0}
+  weapon: []
   speed: 10
   maximumHealth: 100
   characterDesign: {fileID: 0}
   equippedWeapon: {fileID: 0}
-  shirt: {fileID: 11400000, guid: 4739911e29a2c514ea498e8d09d22316, type: 2}
+  shirt: {fileID: 0}
   pants: {fileID: 0}
