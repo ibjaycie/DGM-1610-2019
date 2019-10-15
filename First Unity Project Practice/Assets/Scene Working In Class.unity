@@ -6531,8 +6531,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef165eefe63ce204cb9b8aa7be2539ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  multiplier: 1.4
   pickUpPowerUp: {fileID: 1358687417}
   particleEmit: {fileID: 1358687419}
+  changeColor: {fileID: 21300000, guid: c4b5fac60e8d2224a993a41159908c16, type: 3}
 --- !u!114 &1993788503
 MonoBehaviour:
   m_ObjectHideFlags: 0
