@@ -66,6 +66,8 @@
 -r:"C:\Program Files\Unity Hub\2018.1.9f2\Editor\Data\Managed/Unity.Locator.dll"
 -r:Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
 -r:Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+-r:Library/ScriptAssemblies/Cinemachine.dll
+-r:Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
 -r:"C:/Program Files/Unity Hub/2018.1.9f2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"C:/Program Files/Unity Hub/2018.1.9f2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
 -r:"C:/Program Files/Unity Hub/2018.1.9f2/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"

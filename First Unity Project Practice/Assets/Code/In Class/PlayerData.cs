@@ -2,11 +2,16 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+
 [CreateAssetMenu]
 	class PlayerData : GameArtClass //allow people to select and use characters with different 
 	//attributes, used to configure a prefab. ways we can generate characters on our screen. 
 	//I CHANGED THIS TO GAMEART CLASS BECAUSE IT HAS TO MATCH THE OTHER SCRIPT. ITS A CHILD.
 	{
+		public UnityAction<GameObject> instanceAction; //We are going to call this action when it's instansiated.
+		
+		
 		public String characterName;
 		//sprites are 2D assets
 		public FloatData health;
@@ -35,6 +40,7 @@ using UnityEngine;
 			//newSprite.sprite = characterDesign;
 			//newSprite. = characterName; //It won't let me call just a "String" it wants me to call 
 			//"ToString". Don't know why just yet. 
+			instanceAction(newPlayer); 
 		}
 		
 		//what should happen is when I press play, the player will change to either a red diamond
