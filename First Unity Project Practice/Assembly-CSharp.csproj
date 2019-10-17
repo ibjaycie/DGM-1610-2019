@@ -62,6 +62,7 @@
     <Compile Include="Assets\characterDisplay.cs" />
     <Compile Include="Assets\Code\Character Selection\CharacterSelector.cs" />
     <Compile Include="Assets\Code\In Class\CatClass.cs" />
+    <Compile Include="Assets\Code\In Class\CinemachineController.cs" />
     <Compile Include="Assets\Code\In Class\Data Scripts\ClothesData.cs" />
     <Compile Include="Assets\Code\In Class\Data Scripts\FloatData.cs" />
     <Compile Include="Assets\Code\In Class\Data Scripts\GameArtClass.cs" />
@@ -114,14 +115,14 @@
     <Compile Include="Assets\Code\Practice Scripts\PracticeUiTextController.cs" />
     <Compile Include="Assets\Code\Practice Scripts\PressButton.cs" />
     <Compile Include="Assets\Code\Practice Scripts\TheGoodButton.cs" />
+    <Reference Include="Cinemachine">
+      <HintPath>C:/Users/ibjaycie/Coding Practice/Practicing-Code/DGM-1610-2019/First Unity Project Practice/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/ibjaycie/Coding Practice/Practicing-Code/DGM-1610-2019/First Unity Project Practice/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>C:/Users/ibjaycie/Coding Practice/Practicing-Code/DGM-1610-2019/First Unity Project Practice/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>C:/Users/ibjaycie/Coding Practice/Practicing-Code/DGM-1610-2019/First Unity Project Practice/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
       <HintPath>C:/Users/ibjaycie/Coding Practice/Practicing-Code/DGM-1610-2019/First Unity Project Practice/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>

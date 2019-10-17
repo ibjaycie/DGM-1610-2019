@@ -13,6 +13,7 @@
           </e>
           <e p="In Class" t="Include">
             <e p="CatClass.cs" t="Include" />
+            <e p="CinemachineController.cs" t="Include" />
             <e p="Data Scripts" t="Include">
               <e p="ClothesData.cs" t="Include" />
               <e p="FloatData.cs" t="Include" />
