@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Particle
   - PlayerNumOne
+  - Chimmy
   layers:
   - Default
   - TransparentFX

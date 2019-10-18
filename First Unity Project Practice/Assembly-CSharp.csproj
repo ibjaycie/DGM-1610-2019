@@ -67,6 +67,7 @@
     <Compile Include="Assets\Code\In Class\Data Scripts\FloatData.cs" />
     <Compile Include="Assets\Code\In Class\Data Scripts\GameArtClass.cs" />
     <Compile Include="Assets\Code\In Class\Data Scripts\IntDataObject.cs" />
+    <Compile Include="Assets\Code\In Class\Data Scripts\PlayerData.cs" />
     <Compile Include="Assets\Code\In Class\Data Scripts\WeaponData.cs" />
     <Compile Include="Assets\Code\In Class\Dog.cs" />
     <Compile Include="Assets\Code\In Class\ExplodingSun.cs" />
@@ -79,9 +80,9 @@
     <Compile Include="Assets\Code\In Class\movement.cs" />
     <Compile Include="Assets\Code\In Class\MovementInClass.cs" />
     <Compile Include="Assets\Code\In Class\MysterySwitch.cs" />
+    <Compile Include="Assets\Code\In Class\onButtonSelect.cs" />
     <Compile Include="Assets\Code\In Class\ParticleControl.cs" />
     <Compile Include="Assets\Code\In Class\ParticlesOnMouseDown.cs" />
-    <Compile Include="Assets\Code\In Class\PlayerData.cs" />
     <Compile Include="Assets\Code\In Class\SummonEnemy.cs" />
     <Compile Include="Assets\Code\In Class\Test.cs" />
     <Compile Include="Assets\Code\In Class\TriggerEvents.cs" />

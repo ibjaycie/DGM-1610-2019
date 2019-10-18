@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-[CreateAssetMenu]
+[CreateAssetMenu (menuName = "Character")]
 public class PlayerData : GameArtClass //allow people to select and use characters with different 
 	//attributes, used to configure a prefab. ways we can generate characters on our screen. 
 	//I CHANGED THIS TO GAMEART CLASS BECAUSE IT HAS TO MATCH THE OTHER SCRIPT. ITS A CHILD.
