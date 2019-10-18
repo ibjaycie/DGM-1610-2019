@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 5376533f8297c124b91ec44cd38de95f, type: 3}
   color: {r: 0.90465856, g: 1, b: 0, a: 1}
-  prefab: {fileID: 1039909608227910, guid: a5452c006ea129a41ba81e18c33b4706, type: 2}
+  prefab: {fileID: 1605359972706858, guid: 724f8b89ac28d5f41bb82a0950f33de5, type: 2}
   characterName: 
   health: {fileID: 0}
   weapon:

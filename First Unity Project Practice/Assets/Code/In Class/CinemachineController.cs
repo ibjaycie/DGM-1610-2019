@@ -13,7 +13,8 @@ public class CinemachineController : MonoBehaviour
 	private void Awake()
 	{
 		virtualCamera = GetComponent<CinemachineVirtualCamera>();
-		playerData.instanceAction = InstanceHandler;
+		playerData.instanceAction = InstanceHandler; //It says in Unity that there is a Null error here and I can't figure
+		//out why?!?!? 
 		playerData.InstancePlayer();
 	}
 
