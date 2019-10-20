@@ -59,12 +59,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Bt21PlayerData.cs" />
+    <Compile Include="Assets\Scripts\CharacterSelector.cs" />
+    <Compile Include="Assets\Scripts\Data Scripts\Bt21PlayerData.cs" />
+    <Reference Include="UnityEditor.StandardEvents">
+      <HintPath>C:/Users/ibjaycie/Coding Practice/Practicing-Code/DGM-1610-2019/BT21 Game/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>C:/Users/ibjaycie/Coding Practice/Practicing-Code/DGM-1610-2019/BT21 Game/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/ibjaycie/Coding Practice/Practicing-Code/DGM-1610-2019/BT21 Game/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    <Reference Include="Cinemachine">
+      <HintPath>C:/Users/ibjaycie/Coding Practice/Practicing-Code/DGM-1610-2019/BT21 Game/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>C:/Users/ibjaycie/Coding Practice/Practicing-Code/DGM-1610-2019/BT21 Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity Hub/2018.1.9f2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
