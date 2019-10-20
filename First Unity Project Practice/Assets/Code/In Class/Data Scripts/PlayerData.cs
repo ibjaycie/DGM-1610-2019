@@ -10,8 +10,8 @@ public class PlayerData : GameArtClass //allow people to select and use characte
 	//I CHANGED THIS TO GAMEART CLASS BECAUSE IT HAS TO MATCH THE OTHER SCRIPT. ITS A CHILD.
 	{
 		public UnityAction<GameObject> instanceAction; //We are going to call this action when it's instansiated.
-		
-		
+
+		public GameObject prefab;
 		public String characterName;
 		//sprites are 2D assets
 		public FloatData health;

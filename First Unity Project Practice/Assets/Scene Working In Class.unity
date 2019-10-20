@@ -1046,6 +1046,48 @@ MonoBehaviour:
   character:
   - {fileID: 1939737859945458, guid: 724f8b89ac28d5f41bb82a0950f33de5, type: 2}
   characterSelectPanel: {fileID: 2109647277}
+--- !u!1001 &878707988
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4344397799657752, guid: 724f8b89ac28d5f41bb82a0950f33de5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.44000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344397799657752, guid: 724f8b89ac28d5f41bb82a0950f33de5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344397799657752, guid: 724f8b89ac28d5f41bb82a0950f33de5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 9.999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344397799657752, guid: 724f8b89ac28d5f41bb82a0950f33de5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344397799657752, guid: 724f8b89ac28d5f41bb82a0950f33de5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344397799657752, guid: 724f8b89ac28d5f41bb82a0950f33de5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344397799657752, guid: 724f8b89ac28d5f41bb82a0950f33de5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344397799657752, guid: 724f8b89ac28d5f41bb82a0950f33de5, type: 2}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 724f8b89ac28d5f41bb82a0950f33de5, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &945051233
 GameObject:
   m_ObjectHideFlags: 3
@@ -7914,7 +7956,6 @@ GameObject:
   - component: {fileID: 2109647278}
   - component: {fileID: 2109647280}
   - component: {fileID: 2109647279}
-  - component: {fileID: 2109647281}
   m_Layer: 5
   m_Name: Character Panel
   m_TagString: Untagged
@@ -7975,15 +8016,3 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2109647277}
---- !u!114 &2109647281
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2109647277}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffbe3a3cd1ccc904283f90627c853bd7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 1939737859945458, guid: 724f8b89ac28d5f41bb82a0950f33de5, type: 2}

@@ -8,6 +8,6 @@ public class onButtonSelect : MonoBehaviour
     public GameObject prefab;
     private void OnMouseDown()
     {
-        Instantiate(prefab);
+        //Instantiate(prefab);
     }
 }
