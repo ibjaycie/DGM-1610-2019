@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CharacterSelector : MonoBehaviour
 {
-	public GameObject player;
+	public GameObject[] player;
 	public Vector3 spawnPosition = new Vector3(0,1,-7);
 	public Bt21PlayerData[] characters;
 	public GameObject friendPanel;
@@ -12,8 +12,18 @@ public class CharacterSelector : MonoBehaviour
 	public void StartGame(int characterChoice) //int assigns a number to the character it will choose
 	{
 		friendPanel.SetActive(false);
-		var spawnedPlayer = Instantiate(player);
+		GameObject selectedPlayer = Instantiate(player[characterChoice]); //CAME UP WITH THIS ON MY OWN
+		//Woah i'm so smart. But it's spawning BOTH prefabs at the same time. not just one. 
+		//var spawnedPlayer = Instantiate(player);
 		Bt21PlayerData selectedCharacter = characters[characterChoice];
 	}
 
 }
+
+//I UNDERSTAND WHAT'S WRONG! In the brackeys tutorial, he only has ONE player prefab
+//and the ONLY difference in the two characters he has is the ABILITIES. 
+//I have two completely different character (That will need prefabs I guess and I will
+// have 7 characters). 
+
+//IT FLIPPIN WORKED AND I DID LINE 15 OF SCRIPT ON MY OWN JUST FROM THINKING OUT LOUD
+//HOLY CRAP I CAN'T BELEIVE IT FLIPPIN WORKED! I COULD CRY!

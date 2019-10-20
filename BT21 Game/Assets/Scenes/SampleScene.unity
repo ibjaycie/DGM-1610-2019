@@ -538,7 +538,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5af784926bae0a48a81dd4b7b092f05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1914660568194004, guid: 94117883b964dc34bbffb9f7bba9ef20, type: 2}
+  player:
+  - {fileID: 1914660568194004, guid: 94117883b964dc34bbffb9f7bba9ef20, type: 2}
+  - {fileID: 1085542242245192, guid: e24ecb1f8af9f7b4ebb8d47360fad983, type: 2}
   spawnPosition: {x: 0, y: 0, z: 0}
   characters:
   - {fileID: 11400000, guid: c7fa0642f9ea99442816a3a6a9b6da07, type: 2}
@@ -981,17 +983,6 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 582911127}
-        m_MethodName: StartGame
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
