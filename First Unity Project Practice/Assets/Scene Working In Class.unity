@@ -461,6 +461,69 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 259742241}
+--- !u!1001 &403691755
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 114766626374621110, guid: a377906b1ea270349a7f0a3a5c8d8688,
+        type: 2}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173552102919892, guid: a377906b1ea270349a7f0a3a5c8d8688, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -14.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173552102919892, guid: a377906b1ea270349a7f0a3a5c8d8688, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.17927182
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173552102919892, guid: a377906b1ea270349a7f0a3a5c8d8688, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 19.46875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173552102919892, guid: a377906b1ea270349a7f0a3a5c8d8688, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173552102919892, guid: a377906b1ea270349a7f0a3a5c8d8688, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173552102919892, guid: a377906b1ea270349a7f0a3a5c8d8688, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173552102919892, guid: a377906b1ea270349a7f0a3a5c8d8688, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173552102919892, guid: a377906b1ea270349a7f0a3a5c8d8688, type: 2}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 114766626374621110, guid: a377906b1ea270349a7f0a3a5c8d8688,
+        type: 2}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114766626374621110, guid: a377906b1ea270349a7f0a3a5c8d8688,
+        type: 2}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114766626374621110, guid: a377906b1ea270349a7f0a3a5c8d8688,
+        type: 2}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: b0abe56908838614ba77ab4fd3fa8254,
+        type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: a377906b1ea270349a7f0a3a5c8d8688, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &439158222
 GameObject:
   m_ObjectHideFlags: 0
@@ -1088,6 +1151,39 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 724f8b89ac28d5f41bb82a0950f33de5, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &878707989 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1904696032869590, guid: 724f8b89ac28d5f41bb82a0950f33de5,
+    type: 2}
+  m_PrefabInternal: {fileID: 878707988}
+--- !u!114 &878707990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 878707989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec7900ce4c37cb74a934a061321117e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!65 &878707991
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 878707989}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0000002, y: 1, z: 0.2}
+  m_Center: {x: -0.000000029802322, y: 0, z: 0}
 --- !u!1 &945051233
 GameObject:
   m_ObjectHideFlags: 3

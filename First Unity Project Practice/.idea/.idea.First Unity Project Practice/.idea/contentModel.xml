@@ -16,6 +16,7 @@
             <e p="CinemachineController.cs" t="Include" />
             <e p="Data Scripts" t="Include">
               <e p="ClothesData.cs" t="Include" />
+              <e p="CollectionData.cs" t="Include" />
               <e p="FloatData.cs" t="Include" />
               <e p="GameArtClass.cs" t="Include" />
               <e p="IntDataObject.cs" t="Include" />

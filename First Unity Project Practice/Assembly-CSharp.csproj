@@ -64,6 +64,7 @@
     <Compile Include="Assets\Code\In Class\CatClass.cs" />
     <Compile Include="Assets\Code\In Class\CinemachineController.cs" />
     <Compile Include="Assets\Code\In Class\Data Scripts\ClothesData.cs" />
+    <Compile Include="Assets\Code\In Class\Data Scripts\CollectionData.cs" />
     <Compile Include="Assets\Code\In Class\Data Scripts\FloatData.cs" />
     <Compile Include="Assets\Code\In Class\Data Scripts\GameArtClass.cs" />
     <Compile Include="Assets\Code\In Class\Data Scripts\IntDataObject.cs" />
