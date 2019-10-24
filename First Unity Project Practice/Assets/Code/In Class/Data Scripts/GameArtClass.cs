@@ -4,5 +4,6 @@ public class GameArtClass : ScriptableObject //This will be the parent of other 
 {
 	public Sprite sprite;
 	public Color color = Color.red;
-	public GameObject prefab; 
+	public GameObject prefab;
+	//public bool collected; //This checks to see what items are in our list. 
 }
