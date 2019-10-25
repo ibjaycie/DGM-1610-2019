@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cf20e26f4fe37342a8fd031df0c218c, type: 3}
+  m_Name: Mace
+  m_EditorClassIdentifier: 
+  weaponDesign: {fileID: 0}
+  weaponColor: {r: 1, g: 0, b: 0, a: 1}
+  powerLevel: 10
+  prefab: {fileID: 0}
+  weaponDescription: 
