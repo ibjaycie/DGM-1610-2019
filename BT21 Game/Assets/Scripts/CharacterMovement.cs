@@ -1,11 +1,13 @@
 ﻿
 using UnityEngine;
+using UnityEngine.EventSystems;
+
 [RequireComponent(typeof(CharacterController))]
 public class CharacterMovement : MonoBehaviour
 {
 	public float speed = 1f;
 	public float jumpSpeed = 20f;
-	public float gravity = 9.81f;
+	public float gravity = 9.8f;
 
 	private int jumpCount;
 	public int jumpCountMax = 2;
@@ -22,9 +24,7 @@ public class CharacterMovement : MonoBehaviour
 	{
 		position.x = speed * Input.GetAxis("Horizontal");
 		controller.Move(position * Time.deltaTime);
-		//Now to make the double jump. I made the jumpcountmax 2 BUT I want to make other players capable of more or less
-		//jumps. For instance, Kookie will have ability to jump max 3 times. But I assume I change that in unity
-		//because it is public. 
+		
 		if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
 		{
 			position.y = jumpSpeed;
@@ -37,6 +37,9 @@ public class CharacterMovement : MonoBehaviour
 			jumpCount = 0; 
 		}
 
+		position.y -= gravity * Time.deltaTime; //YES THIS WORKED. okay but now it can't jump. 
+		//okay so it jumps if gravity is at 3 in unity, but then it falls back down really really slow. working on fixing that.
+		//need to ponder for a bit. 
 		controller.Move(position * Time.deltaTime);
 	}
 }
