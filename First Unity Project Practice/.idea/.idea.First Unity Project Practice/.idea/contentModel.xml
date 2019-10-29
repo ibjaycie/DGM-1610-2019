@@ -23,7 +23,10 @@
               <e p="PlayerData.cs" t="Include" />
               <e p="WeaponData.cs" t="Include" />
             </e>
+            <e p="Debugger.cs" t="Include" />
+            <e p="DebuggerHandler.cs" t="Include" />
             <e p="Dog.cs" t="Include" />
+            <e p="EnumSwitch.cs" t="Include" />
             <e p="ExplodingSun.cs" t="Include" />
             <e p="Functions.cs" t="Include" />
             <e p="GetFruit.cs" t="Include" />
@@ -73,6 +76,11 @@
             <e p="PracticeUiTextController.cs" t="Include" />
             <e p="PressButton.cs" t="Include" />
             <e p="TheGoodButton.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Resources" t="Include">
+          <e p="Players" t="Include">
+            <e p="PlayerHandler.cs" t="Include" />
           </e>
         </e>
       </e>

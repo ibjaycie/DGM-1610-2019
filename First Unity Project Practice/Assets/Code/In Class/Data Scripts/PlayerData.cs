@@ -22,6 +22,7 @@ public class PlayerData : GameArtClass //allow people to select and use characte
 		public Sprite equippedWeapon;
 		public ClothesData shirt;
 		public ClothesData pants;
+		public UnityEvent onRunEvent;
 		
 		//we are going to use this object as a selector tool. we are saying that all players
 		//in our game have a sprite, color, and prefab. all the same. Why? because it will be
@@ -48,4 +49,9 @@ public class PlayerData : GameArtClass //allow people to select and use characte
 		//it's not appearing for some reason and I need to figure out why. I think it's something in
 		//Unity, not the actual code. 
 		//Go into the player prefab and fix something there, I think that's the issue. 
+
+		public void Run()
+		{
+			onRunEvent.Invoke();
+		}
 	}

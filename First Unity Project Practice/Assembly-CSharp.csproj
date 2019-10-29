@@ -70,7 +70,10 @@
     <Compile Include="Assets\Code\In Class\Data Scripts\IntDataObject.cs" />
     <Compile Include="Assets\Code\In Class\Data Scripts\PlayerData.cs" />
     <Compile Include="Assets\Code\In Class\Data Scripts\WeaponData.cs" />
+    <Compile Include="Assets\Code\In Class\Debugger.cs" />
+    <Compile Include="Assets\Code\In Class\DebuggerHandler.cs" />
     <Compile Include="Assets\Code\In Class\Dog.cs" />
+    <Compile Include="Assets\Code\In Class\EnumSwitch.cs" />
     <Compile Include="Assets\Code\In Class\ExplodingSun.cs" />
     <Compile Include="Assets\Code\In Class\Functions.cs" />
     <Compile Include="Assets\Code\In Class\GetFruit.cs" />
@@ -118,6 +121,7 @@
     <Compile Include="Assets\Code\Practice Scripts\PracticeUiTextController.cs" />
     <Compile Include="Assets\Code\Practice Scripts\PressButton.cs" />
     <Compile Include="Assets\Code\Practice Scripts\TheGoodButton.cs" />
+    <Compile Include="Assets\Resources\Players\PlayerHandler.cs" />
     <Reference Include="Cinemachine">
       <HintPath>C:/Users/ibjaycie/Coding Practice/Practicing-Code/DGM-1610-2019/First Unity Project Practice/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
