@@ -98,7 +98,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1085542242245192}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.57, z: 0}
+  m_LocalPosition: {x: 0, y: -4.31, z: 0}
   m_LocalScale: {x: 2.6420636, y: 2.642065, z: 2.642065}
   m_Children:
   - {fileID: 4883819660356462}
@@ -127,7 +127,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1245171828672328}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.21574034, z: 0}
+  m_LocalPosition: {x: 0, y: -0.03, z: 0}
   m_LocalScale: {x: 1.2512907, y: 1.0016948, z: 1.9628055}
   m_Children: []
   m_Father: {fileID: 4574023482024204}
@@ -145,7 +145,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  gravity: -3
+  jumpSpeed: 15
+  gravity: 50
+  jumpCountMax: 2
   controller: {fileID: 143423789518811006}
 --- !u!114 &114214889514784692
 MonoBehaviour:
@@ -251,8 +253,8 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 2
-  m_Radius: 0.5
+  m_Height: 0.86
+  m_Radius: 0.65
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08

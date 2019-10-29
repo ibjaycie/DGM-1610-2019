@@ -6,8 +6,8 @@ using UnityEngine.EventSystems;
 public class CharacterMovement : MonoBehaviour
 {
 	public float speed = 1f;
-	public float jumpSpeed = 20f;
-	public float gravity = 9.8f;
+	public float jumpSpeed = 15f;
+	public float gravity = 50f;
 
 	private int jumpCount;
 	public int jumpCountMax = 2;
@@ -25,21 +25,13 @@ public class CharacterMovement : MonoBehaviour
 		position.x = speed * Input.GetAxis("Horizontal");
 		controller.Move(position * Time.deltaTime);
 		
-		if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
+		if (Input.GetButtonDown("Jump")) 
 		{
 			position.y = jumpSpeed;
 			jumpCount++;
 		}
-
-		if (controller.isGrounded)
-		{
-			position.y = 0f;
-			jumpCount = 0; 
-		}
-
-		position.y -= gravity * Time.deltaTime; //YES THIS WORKED. okay but now it can't jump. 
-		//okay so it jumps if gravity is at 3 in unity, but then it falls back down really really slow. working on fixing that.
-		//need to ponder for a bit. 
+		
+		position.y -= gravity * Time.deltaTime; 
 		controller.Move(position * Time.deltaTime);
 	}
 }

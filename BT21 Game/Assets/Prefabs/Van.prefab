@@ -213,7 +213,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
-  gravity: -3
+  jumpSpeed: 15
+  gravity: 50
+  jumpCountMax: 2
   controller: {fileID: 143423789518811006}
 --- !u!114 &114844959932213040
 MonoBehaviour:
