@@ -16,7 +16,11 @@
             <e p="Bt21PlayerData.cs" t="Include" />
             <e p="PlayerWeaponData.cs" t="Include" />
           </e>
-          <e p="TriggerEvents.cs" t="Include" />
+          <e p="Events" t="Include">
+            <e p="TriggerEvents.cs" t="Include" />
+          </e>
+          <e p="OnWeaponDebug.cs" t="Include" />
+          <e p="WeaponsHandler.cs" t="Include" />
         </e>
       </e>
       <e p="BT21 Game.sln" t="IncludeFlat" />
