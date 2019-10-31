@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="Assets\characterDisplay.cs" />
     <Compile Include="Assets\Code\Character Selection\CharacterSelector.cs" />
+    <Compile Include="Assets\Code\In Class\AiScripts\AgentHandler.cs" />
     <Compile Include="Assets\Code\In Class\CatClass.cs" />
     <Compile Include="Assets\Code\In Class\CinemachineController.cs" />
     <Compile Include="Assets\Code\In Class\Data Scripts\ClothesData.cs" />

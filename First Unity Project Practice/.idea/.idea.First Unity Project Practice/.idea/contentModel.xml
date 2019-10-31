@@ -12,6 +12,9 @@
             <e p="CharacterSelector.cs" t="Include" />
           </e>
           <e p="In Class" t="Include">
+            <e p="AiScripts" t="Include">
+              <e p="AgentHandler.cs" t="Include" />
+            </e>
             <e p="CatClass.cs" t="Include" />
             <e p="CinemachineController.cs" t="Include" />
             <e p="Data Scripts" t="Include">
