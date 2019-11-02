@@ -19,7 +19,7 @@
           <e p="Events" t="Include">
             <e p="TriggerEvents.cs" t="Include" />
           </e>
-          <e p="OnWeaponDebug.cs" t="Include" />
+          <e p="OnWeaponDebugger.cs" t="Include" />
           <e p="WeaponsHandler.cs" t="Include" />
         </e>
       </e>

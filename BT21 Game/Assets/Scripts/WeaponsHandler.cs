@@ -1,6 +1,5 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿
+using System;
 using System.Diagnostics;
 using UnityEngine;
 
@@ -14,10 +13,11 @@ public class WeaponsHandler : MonoBehaviour
 		weaponObj = newWeaponObj;
 	}
 
-	//private void Update()
-	//{
-	//	weaponObj.
-	//}
+	private void Update()
+	{
+	//	weaponObj.OnWeaponDebug();
+	}
 }
 
-//I'm really confused. 
+//I'm Stuck. For some reason "OnWeaponDebug" isn't connecting to my "OnWeaponDebugger" script like
+//the "OnDebug" is connecting to the "Debugger". 

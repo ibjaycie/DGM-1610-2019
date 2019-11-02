@@ -65,7 +65,7 @@
     <Compile Include="Assets\Scripts\Data Scripts\Bt21PlayerData.cs" />
     <Compile Include="Assets\Scripts\Data Scripts\PlayerWeaponData.cs" />
     <Compile Include="Assets\Scripts\Events\TriggerEvents.cs" />
-    <Compile Include="Assets\Scripts\OnWeaponDebug.cs" />
+    <Compile Include="Assets\Scripts\OnWeaponDebugger.cs" />
     <Compile Include="Assets\Scripts\WeaponsHandler.cs" />
     <Reference Include="Cinemachine">
       <HintPath>C:/Users/ibjaycie/Coding Practice/Practicing-Code/DGM-1610-2019/BT21 Game/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
