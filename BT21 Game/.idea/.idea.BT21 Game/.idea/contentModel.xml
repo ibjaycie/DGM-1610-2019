@@ -15,11 +15,13 @@
           <e p="Data Scripts" t="Include">
             <e p="Bt21PlayerData.cs" t="Include" />
             <e p="PlayerWeaponData.cs" t="Include" />
+            <e p="Vector3Data.cs" t="Include" />
           </e>
           <e p="EnemyAgentHandler.cs" t="Include" />
           <e p="Events" t="Include">
             <e p="TriggerEvents.cs" t="Include" />
           </e>
+          <e p="MouseEvents.cs" t="Include" />
           <e p="OnWeaponDebugger.cs" t="Include" />
           <e p="WeaponsHandler.cs" t="Include" />
         </e>

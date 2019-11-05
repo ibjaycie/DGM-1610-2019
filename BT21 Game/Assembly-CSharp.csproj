@@ -64,8 +64,10 @@
     <Compile Include="Assets\Scripts\Collections\WeaponCollection.cs" />
     <Compile Include="Assets\Scripts\Data Scripts\Bt21PlayerData.cs" />
     <Compile Include="Assets\Scripts\Data Scripts\PlayerWeaponData.cs" />
+    <Compile Include="Assets\Scripts\Data Scripts\Vector3Data.cs" />
     <Compile Include="Assets\Scripts\EnemyAgentHandler.cs" />
     <Compile Include="Assets\Scripts\Events\TriggerEvents.cs" />
+    <Compile Include="Assets\Scripts\MouseEvents.cs" />
     <Compile Include="Assets\Scripts\OnWeaponDebugger.cs" />
     <Compile Include="Assets\Scripts\WeaponsHandler.cs" />
     <Reference Include="Cinemachine">
