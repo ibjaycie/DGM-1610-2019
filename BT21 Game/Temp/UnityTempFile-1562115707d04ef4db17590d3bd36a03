@@ -185,7 +185,8 @@ Assets/Scripts/CharacterSelector.cs
 Assets/Scripts/Collections/WeaponCollection.cs
 "Assets/Scripts/Data Scripts/Bt21PlayerData.cs"
 "Assets/Scripts/Data Scripts/PlayerWeaponData.cs"
+Assets/Scripts/EnemyAgentHandler.cs
 Assets/Scripts/Events/TriggerEvents.cs
-Assets/Scripts/NewBehaviourScript.cs
+Assets/Scripts/OnWeaponDebugger.cs
 Assets/Scripts/WeaponsHandler.cs
 -lib:"C:\Program Files\Unity Hub\2018.1.9f2\Editor\Data\MonoBleedingEdge\lib\mono\unity"

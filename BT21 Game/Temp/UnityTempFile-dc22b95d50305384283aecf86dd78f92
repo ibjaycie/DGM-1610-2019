@@ -185,6 +185,7 @@ Assets/Scripts/CharacterSelector.cs
 Assets/Scripts/Collections/WeaponCollection.cs
 "Assets/Scripts/Data Scripts/Bt21PlayerData.cs"
 "Assets/Scripts/Data Scripts/PlayerWeaponData.cs"
+Assets/Scripts/EnemyAgentHandler.cs
 Assets/Scripts/Events/TriggerEvents.cs
 Assets/Scripts/OnWeaponDebugger.cs
 Assets/Scripts/WeaponsHandler.cs
