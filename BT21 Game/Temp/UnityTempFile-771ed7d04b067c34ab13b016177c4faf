@@ -180,6 +180,7 @@
 -define:UNITY_EDITOR_WIN
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:UNITY_TEAM_LICENSE
+Assets/Scripts/AddWeaponInventory.cs
 Assets/Scripts/CharacterMovement.cs
 Assets/Scripts/CharacterSelector.cs
 Assets/Scripts/Collections/WeaponCollection.cs

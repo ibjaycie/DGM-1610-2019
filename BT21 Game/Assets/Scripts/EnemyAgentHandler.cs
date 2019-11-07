@@ -10,11 +10,14 @@ public class EnemyAgentHandler : MonoBehaviour
 	private NavMeshAgent agent;
 	private Transform location;
 	public Transform playerDestination;
+	private GameObject startObj;
 
 
 	private void Start()
 	{
 		location = transform;
+		startObj = new GameObject();
+		startObj.transform.position = transform.position;
 		agent = GetComponent<NavMeshAgent>(); 
 	}
 
@@ -30,5 +33,6 @@ public class EnemyAgentHandler : MonoBehaviour
 }
 
 
-//IT WORKED! I needed to make the enemy boxcollider bigger as well as make the Location = transform
-//in order for it to follow correctly. 
+//actually it's just going to my players zero position. 
+//i don't have any errors but it just going to the zero position of the player. 
+//the play triggers the movement but the enemy doesn't follow. 

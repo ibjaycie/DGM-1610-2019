@@ -14,5 +14,5 @@ MonoBehaviour:
   weaponDesign: {fileID: 0}
   weaponColor: {r: 1, g: 0, b: 0, a: 1}
   powerLevel: 10
-  prefab: {fileID: 0}
+  prefab: {fileID: 1702379873840472, guid: 8b2a462f2c0e27a499784f9ab06930a6, type: 2}
   weaponDescription: 
