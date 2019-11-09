@@ -24,6 +24,7 @@
           </e>
           <e p="MouseEvents.cs" t="Include" />
           <e p="OnWeaponDebugger.cs" t="Include" />
+          <e p="PlayerMaxWeapons.cs" t="Include" />
           <e p="WeaponsHandler.cs" t="Include" />
         </e>
       </e>

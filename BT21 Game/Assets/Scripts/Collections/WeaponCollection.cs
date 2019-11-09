@@ -7,20 +7,20 @@ using Debug = UnityEngine.Debug;
 [CreateAssetMenu]
 public class WeaponCollection : ScriptableObject
 {
-    public List<PlayerWeaponData> collectionList;
+    public List<PlayerWeaponData> weaponList;
 
     
     public void AddData(PlayerWeaponData obj)
     {
-        foreach (var weaponCollection in collectionList)
+        foreach (var weaponCollection in weaponList)
         {
             Debug.Log(weaponCollection);
         }
-        for (var i = 0; i < collectionList.Count; i++)
+        for (var i = 0; i < weaponList.Count; i++)
         {
-            if (!collectionList.Contains(obj))
+            if (!weaponList.Contains(obj))
             {
-                collectionList.Add(obj);
+                weaponList.Add(obj);
                 Debug.Log("You picked up a club");
             }
         }

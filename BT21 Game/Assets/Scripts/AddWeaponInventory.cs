@@ -4,16 +4,16 @@ using UnityEngine;
 [CreateAssetMenu]
 public class AddWeaponInventory : ScriptableObject
 {
-	public List<PlayerWeaponData> collectionList;
+	public List<PlayerWeaponData> weaponList;
+	public int weaponMax = 2;
 
 	public void AddWeapon(PlayerWeaponData obj)
 	{
-		for (var i = 0; i < collectionList.Count; i++)
+		for (var i = 0; i < weaponList.Count; i++)
 		{
-			if (!collectionList.Contains(obj))
+			if (!weaponList.Contains(obj))
 			{
-				collectionList.Add(obj);
-				Debug.Log("You picked up a club");
+				weaponList.Add(obj);
 			}
 		}
 	}
