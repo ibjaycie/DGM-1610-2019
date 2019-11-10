@@ -191,5 +191,7 @@ Assets/Scripts/EnemyAgentHandler.cs
 Assets/Scripts/Events/TriggerEvents.cs
 Assets/Scripts/MouseEvents.cs
 Assets/Scripts/OnWeaponDebugger.cs
+Assets/Scripts/PlayerMaxWeapons.cs
+Assets/Scripts/UiHealthImageController.cs
 Assets/Scripts/WeaponsHandler.cs
 -lib:"C:\Program Files\Unity Hub\2018.1.9f2\Editor\Data\MonoBleedingEdge\lib\mono\unity"
