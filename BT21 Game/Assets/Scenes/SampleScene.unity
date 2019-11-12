@@ -365,23 +365,25 @@ MonoBehaviour:
   triggerEnterEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: a02ff37d649deb448a9ae69e6d255c6e, type: 2}
-        m_MethodName: UpdateHealth
-        m_Mode: 4
+      - m_Target: {fileID: 1300406029}
+        m_MethodName: UpdateImage
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: a02ff37d649deb448a9ae69e6d255c6e,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: HealthData, Assembly-CSharp
           m_IntArgument: 0
-          m_FloatArgument: -1
+          m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: a02ff37d649deb448a9ae69e6d255c6e, type: 2}
-        m_MethodName: UpdateHealthRange
-        m_Mode: 4
+      - m_Target: {fileID: 1300406029}
+        m_MethodName: UpdateImage
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: a02ff37d649deb448a9ae69e6d255c6e,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: HealthData, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
