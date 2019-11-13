@@ -7,7 +7,6 @@ using UnityEngine.Events;
 [RequireComponent(typeof(Collider))]
 public class TriggerEvents : MonoBehaviour
 {
-	public UnityEvent triggerEvent;
 	public UnityEvent triggerEnterEvent;
 	private void Awake()
 	{

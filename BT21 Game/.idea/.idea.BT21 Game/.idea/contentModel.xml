@@ -20,6 +20,7 @@
             <e p="Vector3Data.cs" t="Include" />
           </e>
           <e p="EnemyAgentHandler.cs" t="Include" />
+          <e p="EnemyShoot.cs" t="Include" />
           <e p="Events" t="Include">
             <e p="TriggerEvents.cs" t="Include" />
           </e>
