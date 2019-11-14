@@ -64,6 +64,7 @@
     <Compile Include="Assets\Code\In Class\AiScripts\AgentHandler.cs" />
     <Compile Include="Assets\Code\In Class\CatClass.cs" />
     <Compile Include="Assets\Code\In Class\CinemachineController.cs" />
+    <Compile Include="Assets\Code\In Class\CoroutineClass.cs" />
     <Compile Include="Assets\Code\In Class\Coroutines.cs" />
     <Compile Include="Assets\Code\In Class\Data Scripts\ClothesData.cs" />
     <Compile Include="Assets\Code\In Class\Data Scripts\FloatData.cs" />
@@ -123,6 +124,7 @@
     <Compile Include="Assets\Code\Practice Scripts\PracticeUiTextController.cs" />
     <Compile Include="Assets\Code\Practice Scripts\PressButton.cs" />
     <Compile Include="Assets\Code\Practice Scripts\TheGoodButton.cs" />
+    <Compile Include="Assets\CoroutinePractice.cs" />
     <Compile Include="Assets\Resources\Players\PlayerHandler.cs" />
     <Reference Include="Cinemachine">
       <HintPath>C:/Users/ibjaycie/Coding Practice/Practicing-Code/DGM-1610-2019/First Unity Project Practice/Library/ScriptAssemblies/Cinemachine.dll</HintPath>

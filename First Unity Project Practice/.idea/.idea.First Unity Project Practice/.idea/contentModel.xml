@@ -17,6 +17,7 @@
             </e>
             <e p="CatClass.cs" t="Include" />
             <e p="CinemachineController.cs" t="Include" />
+            <e p="CoroutineClass.cs" t="Include" />
             <e p="CoRoutines.cs" t="Include" />
             <e p="Data Scripts" t="Include">
               <e p="ClothesData.cs" t="Include" />
@@ -82,6 +83,7 @@
             <e p="TheGoodButton.cs" t="Include" />
           </e>
         </e>
+        <e p="CoroutinePractice.cs" t="Include" />
         <e p="Resources" t="Include">
           <e p="Players" t="Include">
             <e p="PlayerHandler.cs" t="Include" />
