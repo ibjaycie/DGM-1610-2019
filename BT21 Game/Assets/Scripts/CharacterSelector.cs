@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -16,8 +17,17 @@ public class CharacterSelector : MonoBehaviour
 		//Woah i'm so smart. But it's spawning BOTH prefabs at the same time. not just one. 
 		//var spawnedPlayer = Instantiate(player);
 		Bt21PlayerData selectedCharacter = characters[characterChoice];
+		StartCoroutine(Countdown());
+
+
 	}
 
+	IEnumerator Countdown()
+	{
+		yield return new WaitForSeconds(3f);
+		Debug.Log("Start Game");
+		
+	}
 }
 
 //I UNDERSTAND WHAT'S WRONG! In the brackeys tutorial, he only has ONE player prefab

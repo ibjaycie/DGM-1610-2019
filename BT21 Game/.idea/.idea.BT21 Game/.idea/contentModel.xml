@@ -13,6 +13,7 @@
           <e p="Collections" t="Include">
             <e p="WeaponCollection.cs" t="Include" />
           </e>
+          <e p="CountdownCoroutine.cs" t="Include" />
           <e p="Data Scripts" t="Include">
             <e p="Bt21PlayerData.cs" t="Include" />
             <e p="HealthData.cs" t="Include" />

@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\CharacterMovement.cs" />
     <Compile Include="Assets\Scripts\CharacterSelector.cs" />
     <Compile Include="Assets\Scripts\Collections\WeaponCollection.cs" />
+    <Compile Include="Assets\Scripts\CountdownCoroutine.cs" />
     <Compile Include="Assets\Scripts\Data Scripts\Bt21PlayerData.cs" />
     <Compile Include="Assets\Scripts\Data Scripts\HealthData.cs" />
     <Compile Include="Assets\Scripts\Data Scripts\PlayerWeaponData.cs" />

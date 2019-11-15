@@ -180,71 +180,21 @@
 -define:UNITY_EDITOR_WIN
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:UNITY_TEAM_LICENSE
-Assets/characterDisplay.cs
-"Assets/Code/Character Selection/CharacterSelector.cs"
-"Assets/Code/In Class/AiScripts/AgentHandler.cs"
-"Assets/Code/In Class/CatClass.cs"
-"Assets/Code/In Class/CinemachineController.cs"
-"Assets/Code/In Class/CoroutineClass.cs"
-"Assets/Code/In Class/Coroutines.cs"
-"Assets/Code/In Class/Data Scripts/ClothesData.cs"
-"Assets/Code/In Class/Data Scripts/FloatData.cs"
-"Assets/Code/In Class/Data Scripts/GameArtClass.cs"
-"Assets/Code/In Class/Data Scripts/GameArtCollection.cs"
-"Assets/Code/In Class/Data Scripts/IntDataObject.cs"
-"Assets/Code/In Class/Data Scripts/PlayerData.cs"
-"Assets/Code/In Class/Data Scripts/WeaponData.cs"
-"Assets/Code/In Class/Debugger.cs"
-"Assets/Code/In Class/DebuggerHandler.cs"
-"Assets/Code/In Class/Dog.cs"
-"Assets/Code/In Class/EnumSwitch.cs"
-"Assets/Code/In Class/ExplodingSun.cs"
-"Assets/Code/In Class/Functions.cs"
-"Assets/Code/In Class/GetFruit.cs"
-"Assets/Code/In Class/IfStatements.cs"
-"Assets/Code/In Class/LightOnOff.cs"
-"Assets/Code/In Class/Lists.cs"
-"Assets/Code/In Class/MonoEvents.cs"
-"Assets/Code/In Class/MouseEvents.cs"
-"Assets/Code/In Class/movement.cs"
-"Assets/Code/In Class/MovementInClass.cs"
-"Assets/Code/In Class/MysterySwitch.cs"
-"Assets/Code/In Class/onButtonSelect.cs"
-"Assets/Code/In Class/ParticleControl.cs"
-"Assets/Code/In Class/ParticlesOnMouseDown.cs"
-"Assets/Code/In Class/SummonEnemy.cs"
-"Assets/Code/In Class/Test.cs"
-"Assets/Code/In Class/TriggerEvents.cs"
-"Assets/Code/In Class/UiImageController.cs"
-"Assets/Code/In Class/UiTextController.cs"
-"Assets/Code/In Class/Variables.cs"
-"Assets/Code/In Class/VarsClass.cs"
-"Assets/Code/Practice Scripts/BigBoss.cs"
-"Assets/Code/Practice Scripts/BulletTriggerEvent.cs"
-"Assets/Code/Practice Scripts/CapsuleScript.cs"
-"Assets/Code/Practice Scripts/CharacterInfo.cs"
-"Assets/Code/Practice Scripts/CubeMove.cs"
-"Assets/Code/Practice Scripts/DestroyEverything.cs"
-"Assets/Code/Practice Scripts/DoubleJumpPowerUp.cs"
-"Assets/Code/Practice Scripts/EnemyExplode.cs"
-"Assets/Code/Practice Scripts/EnemyHealthBar.cs"
-"Assets/Code/Practice Scripts/ExplodingEnemies.cs"
-"Assets/Code/Practice Scripts/FloatDataPowerUp.cs"
-"Assets/Code/Practice Scripts/OnTriggerPowerUp.cs"
-"Assets/Code/Practice Scripts/ParticleSystemDestroy.cs"
-"Assets/Code/Practice Scripts/PlayerCapsuleTwo.cs"
-"Assets/Code/Practice Scripts/PlayerOne.cs"
-"Assets/Code/Practice Scripts/PlayerOneEvent.cs"
-"Assets/Code/Practice Scripts/PlayerTriggerOffSwitch.cs"
-"Assets/Code/Practice Scripts/PowerUpHealthIncrease.cs"
-"Assets/Code/Practice Scripts/PowerUpParticles.cs"
-"Assets/Code/Practice Scripts/PracticeFloatData.cs"
-"Assets/Code/Practice Scripts/PracticeInstansiate.cs"
-"Assets/Code/Practice Scripts/PracticeTriggerEvents.cs"
-"Assets/Code/Practice Scripts/PracticeUiImageController.cs"
-"Assets/Code/Practice Scripts/PracticeUiTextController.cs"
-"Assets/Code/Practice Scripts/PressButton.cs"
-"Assets/Code/Practice Scripts/TheGoodButton.cs"
-Assets/CoroutinePractice.cs
-Assets/Resources/Players/PlayerHandler.cs
+Assets/Scripts/AddWeaponInventory.cs
+Assets/Scripts/CharacterMovement.cs
+Assets/Scripts/CharacterSelector.cs
+Assets/Scripts/Collections/WeaponCollection.cs
+Assets/Scripts/CountdownCoroutine.cs
+"Assets/Scripts/Data Scripts/Bt21PlayerData.cs"
+"Assets/Scripts/Data Scripts/HealthData.cs"
+"Assets/Scripts/Data Scripts/PlayerWeaponData.cs"
+"Assets/Scripts/Data Scripts/Vector3Data.cs"
+Assets/Scripts/EnemyAgentHandler.cs
+Assets/Scripts/EnemyShoot.cs
+Assets/Scripts/Events/TriggerEvents.cs
+Assets/Scripts/MouseEvents.cs
+Assets/Scripts/OnWeaponDebugger.cs
+Assets/Scripts/PlayerMaxWeapons.cs
+Assets/Scripts/UiHealthImageController.cs
+Assets/Scripts/WeaponsHandler.cs
 -lib:"C:\Program Files\Unity Hub\2018.1.9f2\Editor\Data\MonoBleedingEdge\lib\mono\unity"
