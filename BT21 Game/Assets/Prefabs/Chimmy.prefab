@@ -73,6 +73,7 @@ GameObject:
   - component: {fileID: 114459504890486060}
   - component: {fileID: 208920998158027072}
   - component: {fileID: 65305757684793550}
+  - component: {fileID: 114533649744469884}
   m_Layer: 0
   m_Name: Chimmy
   m_TagString: Untagged
@@ -189,6 +190,34 @@ MonoBehaviour:
   gravity: 50
   jumpCountMax: 2
   controller: {fileID: 143840819833462440}
+--- !u!114 &114533649744469884
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1914660568194004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 577f27dd05591e1428818524ef48ece6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementDelay:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114533649744469884}
+        m_MethodName: CancelInvoke
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  script: {fileID: 0}
 --- !u!114 &114745702911573984
 MonoBehaviour:
   m_ObjectHideFlags: 1

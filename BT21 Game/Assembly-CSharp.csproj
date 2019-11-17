@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\EnemyShoot.cs" />
     <Compile Include="Assets\Scripts\Events\TriggerEvents.cs" />
     <Compile Include="Assets\Scripts\MouseEvents.cs" />
+    <Compile Include="Assets\Scripts\MovementDelayCoroutine.cs" />
     <Compile Include="Assets\Scripts\OnWeaponDebugger.cs" />
     <Compile Include="Assets\Scripts\PlayerMaxWeapons.cs" />
     <Compile Include="Assets\Scripts\UiHealthImageController.cs" />

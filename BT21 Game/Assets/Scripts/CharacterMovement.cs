@@ -1,4 +1,5 @@
 ﻿
+using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -14,10 +15,19 @@ public class CharacterMovement : MonoBehaviour
 	private Vector3 position;
 	public CharacterController controller;
 
+	
 
 	private void Start()
 	{
 		controller = GetComponent<CharacterController>();
+		StartCoroutine(PauseMovement());
+	}
+
+	IEnumerator PauseMovement()
+	{
+		yield return new WaitForSeconds(3f);
+		Debug.Log("You can move now");
+		
 	}
 
 	private void Update()
@@ -33,5 +43,8 @@ public class CharacterMovement : MonoBehaviour
 		
 		position.y -= gravity * Time.deltaTime; 
 		controller.Move(position * Time.deltaTime);
+		
 	}
+
+	
 }
