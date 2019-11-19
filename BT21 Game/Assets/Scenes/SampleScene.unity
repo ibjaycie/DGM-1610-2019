@@ -6387,23 +6387,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d4bc3ad350a6dc49835784499501b38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countdown:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1914660568194004, guid: 94117883b964dc34bbffb9f7bba9ef20,
-          type: 2}
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+  countdown: 3
+  countdownText: {fileID: 1314695037}
 --- !u!114 &1314695037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6436,7 +6421,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: Press Space to Begin
 --- !u!222 &1314695038
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -70,9 +70,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4123829886701166}
   - component: {fileID: 143840819833462440}
-  - component: {fileID: 114459504890486060}
   - component: {fileID: 208920998158027072}
   - component: {fileID: 65305757684793550}
+  - component: {fileID: 114484178207208180}
   m_Layer: 0
   m_Name: Chimmy
   m_TagString: Untagged
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_BiasX: 0
   m_BiasY: 0
   m_CenterOnActivate: 1
---- !u!114 &114459504890486060
+--- !u!114 &114484178207208180
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
