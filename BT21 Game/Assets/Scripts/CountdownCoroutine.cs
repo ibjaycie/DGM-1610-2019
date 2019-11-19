@@ -8,7 +8,11 @@ using UnityEngine.UI;
 public class CountdownCoroutine : MonoBehaviour
 {
     public UnityEvent countdown;
-    private Image countdownImage;
-    
-    //I don't even need this script, i put the coroutine in the character selector. 
+    public Text timer;
+
+    public void Start()
+    {
+        timer.text = "3";
+    }
 }
+//I'm stuck. 

@@ -19,13 +19,18 @@ public class CharacterMovement : MonoBehaviour
 
 	private void Start()
 	{
+		
 		controller = GetComponent<CharacterController>();
+		speed = 0f;
 		StartCoroutine(PauseMovement());
+		
 	}
 
 	IEnumerator PauseMovement()
 	{
+		
 		yield return new WaitForSeconds(3f);
+		speed = 10f;
 		Debug.Log("You can move now");
 		
 	}
