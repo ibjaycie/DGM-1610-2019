@@ -12,31 +12,44 @@ public class CountdownCoroutine : MonoBehaviour
 
     private void Update()
     {
-        countdownText.text = (" " + countdown);
+        if (countdown >= 1)
+        {
+            countdownText.text = ("" + countdown); //Showing the Score on the Canvas
+        }
+        else
+        {
+            countdownText.text = ("GO!");
+        }
+
+        if (countdown <= -1)
+        {
+            countdownText.text = (" ");
+        
+        }
     }
 
-    private void on()
+    private void Start()
     {
-        StartCoroutine(PauseMovement());
+        StartCoroutine(printText());
+        Time.timeScale = 1;
     }
-    IEnumerator PauseMovement()
+    IEnumerator printText()
     {
         while (countdown > -1)
         {
-            
-            if (countdown <= 0)
-            {
-                yield return new WaitForSeconds(1f);
-                countdownText.text = "You Can Move Now!";
-                countdown--;
-            }
-            else
-            {
-                yield return new WaitForSeconds(1f);
-                countdown--;
-            }
-            
+            yield return new WaitForSeconds (1);
+            countdown--;
         }
-        Debug.Log("YOU CAN MOVE NOW");
+
+        while (countdown == 1)
+        {
+            yield return new WaitForSeconds (1);
+            countdownText.text = ("test");
+        }
     }
+        //yield return new WaitForSeconds(1f);
+        //countdownText.text = "You Can Move Now!";
+        //countdown--;
+           
+    
 }

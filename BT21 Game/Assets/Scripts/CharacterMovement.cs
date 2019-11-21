@@ -1,7 +1,9 @@
 ﻿
 using System.Collections;
+using System.Net.Mime;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(CharacterController))]
 public class CharacterMovement : MonoBehaviour
@@ -14,7 +16,7 @@ public class CharacterMovement : MonoBehaviour
 	public int jumpCountMax = 2;
 	private Vector3 position;
 	public CharacterController controller;
-
+	
 	
 
 	private void Start()
@@ -37,6 +39,7 @@ public class CharacterMovement : MonoBehaviour
 
 	private void Update()
 	{
+//		countdownText.text = (" " + countdown);
 		position.x = speed * Input.GetAxis("Horizontal");
 		controller.Move(position * Time.deltaTime);
 		

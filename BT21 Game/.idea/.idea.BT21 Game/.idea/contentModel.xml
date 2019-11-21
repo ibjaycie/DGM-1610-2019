@@ -25,6 +25,8 @@
           <e p="Events" t="Include">
             <e p="TriggerEvents.cs" t="Include" />
           </e>
+          <e p="GameAction.cs" t="Include" />
+          <e p="GameActionHandler.cs" t="Include" />
           <e p="MouseEvents.cs" t="Include" />
           <e p="MovementDelayCoroutine.cs" t="Include" />
           <e p="OnWeaponDebugger.cs" t="Include" />
@@ -32,6 +34,7 @@
           <e p="UiHealthImageController.cs" t="Include" />
           <e p="WeaponsHandler.cs" t="Include" />
         </e>
+        <e p="StatesBehavoir.cs" t="Include" />
       </e>
       <e p="BT21 Game.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
