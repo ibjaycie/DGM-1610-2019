@@ -3,29 +3,39 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Net.Mime;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class CharacterSelector : MonoBehaviour
 {
+	
+	public UnityEvent instantiateCountdown;
 	public GameObject[] player;
 	public Vector3 spawnPosition = new Vector3(0,1,-7);
 	public Bt21PlayerData[] characters;
 	public GameObject friendPanel;
 	public Text chooseYourFriend;
+	public GameObject selectedPlayer;
+	public GameObject countdownText;
 		
 
 	public void StartGame(int characterChoice) //int assigns a number to the character it will choose
 	{
 		friendPanel.SetActive(false);
-		
-		GameObject selectedPlayer = Instantiate(player[characterChoice]); //CAME UP WITH THIS ON MY OWN
+		selectedPlayer = Instantiate(player[characterChoice]); //CAME UP WITH THIS ON MY OWN
+		instantiateCountdown.Invoke();
 		//Woah i'm so smart. But it's spawning BOTH prefabs at the same time. not just one. 
 		//var spawnedPlayer = Instantiate(player);
 		Bt21PlayerData selectedCharacter = characters[characterChoice];
 		//StartCoroutine(Countdown());
 
 
-	} 
+	}
+	
+
+	
+
+	
 
 	//IEnumerator Countdown()
 	//{

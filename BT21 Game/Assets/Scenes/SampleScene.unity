@@ -5426,53 +5426,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &575151268
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4123829886701166, guid: 94117883b964dc34bbffb9f7bba9ef20, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4123829886701166, guid: 94117883b964dc34bbffb9f7bba9ef20, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -2.79
-      objectReference: {fileID: 0}
-    - target: {fileID: 4123829886701166, guid: 94117883b964dc34bbffb9f7bba9ef20, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4123829886701166, guid: 94117883b964dc34bbffb9f7bba9ef20, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4123829886701166, guid: 94117883b964dc34bbffb9f7bba9ef20, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4123829886701166, guid: 94117883b964dc34bbffb9f7bba9ef20, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4123829886701166, guid: 94117883b964dc34bbffb9f7bba9ef20, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4123829886701166, guid: 94117883b964dc34bbffb9f7bba9ef20, type: 2}
-      propertyPath: m_RootOrder
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 114551201645634938, guid: 94117883b964dc34bbffb9f7bba9ef20,
-        type: 2}
-      propertyPath: countdown
-      value: 3
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 94117883b964dc34bbffb9f7bba9ef20, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &582911122
 GameObject:
   m_ObjectHideFlags: 0
@@ -5581,6 +5534,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5af784926bae0a48a81dd4b7b092f05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  instantiateCountdown:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   player:
   - {fileID: 1914660568194004, guid: 94117883b964dc34bbffb9f7bba9ef20, type: 2}
   - {fileID: 1085542242245192, guid: e24ecb1f8af9f7b4ebb8d47360fad983, type: 2}
@@ -5601,7 +5559,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c5dbbfe72c4e9f148b20e26cced52000, type: 2}
   - {fileID: 11400000, guid: 3fdd36465b4a79f4d923fd99fafd8917, type: 2}
   friendPanel: {fileID: 879762329}
-  chooseYourFriend: {fileID: 0}
+  chooseYourFriend: {fileID: 1355992438}
+  selectedPlayer: {fileID: 0}
+  countdownText: {fileID: 989601930}
 --- !u!1 &670044991
 GameObject:
   m_ObjectHideFlags: 0
@@ -5889,7 +5849,7 @@ GameObject:
   - component: {fileID: 989601933}
   - component: {fileID: 989601932}
   m_Layer: 5
-  m_Name: Text (1)
+  m_Name: CountdownText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
