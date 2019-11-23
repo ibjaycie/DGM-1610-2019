@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AddWeaponInventory.cs" t="Include" />
+          <e p="ButtonInput.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
           <e p="CharacterSelector.cs" t="Include" />
           <e p="Collections" t="Include">
