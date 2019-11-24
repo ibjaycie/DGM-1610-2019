@@ -31,15 +31,14 @@ public class CountdownCoroutine : MonoBehaviour
         
         }
     }
-
     
     private void Start()
     {
-        
-        StartCoroutine(printText());
+        StartCoroutine(PrintText());
         Time.timeScale = 1;
     }
-    IEnumerator printText()
+
+    IEnumerator PrintText()
     {
         while (countdown > -1)
         {
