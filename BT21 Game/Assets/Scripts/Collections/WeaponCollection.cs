@@ -21,7 +21,7 @@ public class WeaponCollection : ScriptableObject
             if (!weaponList.Contains(obj))
             {
                 weaponList.Add(obj);
-                Debug.Log("You picked up a club");
+                Debug.Log("Weapons inside of the chest");
             }
         }
     }

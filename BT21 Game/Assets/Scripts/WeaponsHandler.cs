@@ -13,10 +13,10 @@ public class WeaponsHandler : MonoBehaviour
 		weaponObj = newWeaponObj;
 	}
 
-	private void Update()
-	{
-	//	weaponObj.OnWeaponDebug();
-	}
+	//private void Update()
+	//{
+	//	weaponObj.onWeaponDebug();
+	//}
 }
 
 //I'm Stuck. For some reason "OnWeaponDebug" isn't connecting to my "OnWeaponDebugger" script like

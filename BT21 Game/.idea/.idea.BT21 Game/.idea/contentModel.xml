@@ -32,7 +32,9 @@
           <e p="MovementDelayCoroutine.cs" t="Include" />
           <e p="OnWeaponDebugger.cs" t="Include" />
           <e p="PlayerMaxWeapons.cs" t="Include" />
+          <e p="ScoreData.cs" t="Include" />
           <e p="UiHealthImageController.cs" t="Include" />
+          <e p="UiTextController.cs" t="Include" />
           <e p="WeaponsHandler.cs" t="Include" />
         </e>
         <e p="StatesBehavoir.cs" t="Include" />
