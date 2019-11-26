@@ -16,6 +16,8 @@ public class CharacterMovement : MonoBehaviour
 	public int jumpCountMax = 2;
 	private Vector3 position;
 	public CharacterController controller;
+	public bool grounded;
+	public bool canDoubleJump;
 	
 	
 
@@ -39,15 +41,17 @@ public class CharacterMovement : MonoBehaviour
 
 	private void Update()
 	{
-//		countdownText.text = (" " + countdown);
+
 		position.x = speed * Input.GetAxis("Horizontal");
 		controller.Move(position * Time.deltaTime);
-		
+
 		if (Input.GetButtonDown("Jump")) 
 		{
+			
 			position.y = jumpSpeed;
-			jumpCount++;
 		}
+		
+		
 		
 		position.y -= gravity * Time.deltaTime; 
 		controller.Move(position * Time.deltaTime);
