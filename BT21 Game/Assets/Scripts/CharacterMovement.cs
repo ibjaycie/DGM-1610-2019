@@ -45,18 +45,17 @@ public class CharacterMovement : MonoBehaviour
 		position.x = speed * Input.GetAxis("Horizontal");
 		controller.Move(position * Time.deltaTime);
 
-		if (Input.GetButtonDown("Jump")) 
+		if (controller.isGrounded)
 		{
-			
 			position.y = jumpSpeed;
+			jumpCount = 0;
 		}
-		
-		
-		
-		position.y -= gravity * Time.deltaTime; 
-		controller.Move(position * Time.deltaTime);
-		
-	}
 
-	
+		if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
+		{
+			position.y = jumpSpeed;
+			jumpCount++;
+		}
+		position.y -= gravity * Time.deltaTime;
+	}
 }
