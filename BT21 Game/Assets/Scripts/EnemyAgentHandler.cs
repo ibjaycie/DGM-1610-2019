@@ -15,15 +15,20 @@ public class EnemyAgentHandler : MonoBehaviour
 
 	private void Start()
 	{
-		location = transform;
 		startObj = new GameObject();
 		startObj.transform.position = transform.position;
+		location = transform;
 		agent = GetComponent<NavMeshAgent>(); 
 	}
 
 	private void OnTriggerEnter(Collider other)
 	{
 		location = playerDestination;
+	}
+
+	private void OnTriggerExit(Collider other)
+	{
+		playerDestination = startObj.transform;
 	}
 
 	private void Update()

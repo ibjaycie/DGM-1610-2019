@@ -16,8 +16,8 @@ public class CharacterMovement : MonoBehaviour
 	public int jumpCountMax = 2;
 	private Vector3 position;
 	public CharacterController controller;
-	public bool grounded;
-	public bool canDoubleJump;
+	private bool grounded;
+	private bool canDoubleJump;
 	
 	
 
@@ -43,19 +43,20 @@ public class CharacterMovement : MonoBehaviour
 	{
 
 		position.x = speed * Input.GetAxis("Horizontal");
-		controller.Move(position * Time.deltaTime);
-
+		controller.Move(position * Time.deltaTime); 
+		
+		if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
+		{
+			position.y = jumpSpeed;
+			jumpCount++;
+		}
 		if (controller.isGrounded)
 		{
 			position.y = jumpSpeed;
 			jumpCount = 0;
 		}
 
-		if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
-		{
-			position.y = jumpSpeed;
-			jumpCount++;
-		}
+		
 		position.y -= gravity * Time.deltaTime;
 	}
 }
