@@ -33,6 +33,7 @@
           <e p="OnWeaponDebugger.cs" t="Include" />
           <e p="PlayerMaxWeapons.cs" t="Include" />
           <e p="ScoreData.cs" t="Include" />
+          <e p="SpeedPowerUpEvent.cs" t="Include" />
           <e p="TransformCoin.cs" t="Include" />
           <e p="UiHealthImageController.cs" t="Include" />
           <e p="UiTextController.cs" t="Include" />

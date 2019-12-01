@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts\OnWeaponDebugger.cs" />
     <Compile Include="Assets\Scripts\PlayerMaxWeapons.cs" />
     <Compile Include="Assets\Scripts\ScoreData.cs" />
+    <Compile Include="Assets\Scripts\SpeedPowerUpEvent.cs" />
     <Compile Include="Assets\Scripts\TransformCoin.cs" />
     <Compile Include="Assets\Scripts\UiHealthImageController.cs" />
     <Compile Include="Assets\Scripts\UiTextController.cs" />

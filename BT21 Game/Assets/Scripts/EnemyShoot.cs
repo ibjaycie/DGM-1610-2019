@@ -10,10 +10,11 @@ public class EnemyShoot :  MonoBehaviour
 	public float shootSpeed;
 	public ParticleSystem bullet;
 	public float maxBullets = 1f;
-	public Transform direction;
+	public Vector3 direction;
 
 	private void OnTriggerEnter(Collider other)
 	{
 		bullet.Emit(1);
+		
 	}
 }
