@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -12,4 +13,5 @@ public class Bt21PlayerData : ScriptableObject
 	public Sprite characterImage;
 	public int speed = 10;
 	public Color outfitColor = Color.red;
+	//public PrefabType characterPrefab;
 }

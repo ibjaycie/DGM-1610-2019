@@ -6364,7 +6364,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dbc3c14e08d94148a273e0a15a41167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPrefab: []
+  powerSpeed: 10
+  playerPrefab:
+  - {fileID: 1914660568194004, guid: 94117883b964dc34bbffb9f7bba9ef20, type: 2}
+  - {fileID: 1085542242245192, guid: 102663bc17582cf45a824edfd3170660, type: 2}
+  - {fileID: 1085542242245192, guid: aa6d2cd851128cc4eb6999b6e3a2dded, type: 2}
+  - {fileID: 1085542242245192, guid: 6021fbfd144854640a42b5a696221396, type: 2}
+  - {fileID: 1085542242245192, guid: de716c263ece07c40a062965acd018cd, type: 2}
+  - {fileID: 1085542242245192, guid: e24ecb1f8af9f7b4ebb8d47360fad983, type: 2}
+  - {fileID: 1085542242245192, guid: 629ccb534d018fb43aa0527f6df75432, type: 2}
+  - {fileID: 1085542242245192, guid: 2274a5bb53d745b479bc25003265ac80, type: 2}
 --- !u!114 &662679442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6379,7 +6388,7 @@ MonoBehaviour:
   triggerEnterEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 11500000, guid: 0dbc3c14e08d94148a273e0a15a41167, type: 3}
         m_MethodName: 
         m_Mode: 1
         m_Arguments:

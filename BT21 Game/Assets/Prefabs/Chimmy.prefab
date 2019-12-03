@@ -261,8 +261,6 @@ MonoBehaviour:
   gravity: 50
   jumpCountMax: 2
   controller: {fileID: 143840819833462440}
-  grounded: 0
-  canDoubleJump: 0
 --- !u!114 &114551201645634938
 MonoBehaviour:
   m_ObjectHideFlags: 1

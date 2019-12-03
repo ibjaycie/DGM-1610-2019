@@ -13,5 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   friendName: Chimmy
   characterImage: {fileID: 21300000, guid: cde3b3b225525cd488161cad2bc1b2c7, type: 3}
-  speed: 8
+  speed: 10
   outfitColor: {r: 0.8092411, g: 0.8207547, b: 0.112273075, a: 1}
+  characterPrefab: {fileID: 0}
