@@ -6,6 +6,8 @@
     <e p="C:\Users\ibjaycie\Coding Practice\Practicing-Code\DGM-1610-2019\BT21 Game" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="ApplyForce.cs" t="Include" />
+        <e p="Flip.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AddWeaponInventory.cs" t="Include" />
           <e p="ButtonInput.cs" t="Include" />
@@ -33,6 +35,7 @@
           <e p="OnWeaponDebugger.cs" t="Include" />
           <e p="PlayerMaxWeapons.cs" t="Include" />
           <e p="ScoreData.cs" t="Include" />
+          <e p="SelfDestruct.cs" t="Include" />
           <e p="SpeedPowerUpEvent.cs" t="Include" />
           <e p="TransformCoin.cs" t="Include" />
           <e p="UiHealthImageController.cs" t="Include" />
