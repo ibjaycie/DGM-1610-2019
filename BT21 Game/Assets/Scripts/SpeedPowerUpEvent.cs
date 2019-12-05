@@ -11,16 +11,22 @@ public class SpeedPowerUpEvent : MonoBehaviour
 
 	private void OnTriggerEnter(Collider other)
 	{
-		StartCoroutine(SpeedPowerUp());
+		PowerUpSpeed(other);
+		//StartCoroutine(SpeedPowerUp());
 		//StartCoroutine(SpeedPowerUp(playerPrefab[playerMovement]));
 	}
 
-	IEnumerator SpeedPowerUp()
-	//IEnumerator SpeedPowerUp(int playerMovement)
+	void PowerUpSpeed(Collider playerSpeed)
 	{
-		//playerPrefab. = powerSpeed;
-		yield return new WaitForSeconds(3f);
-		movementOfCharacter.speed = 20f;
-		Debug.Log("Times Up for Power Up Speed");
+		playerSpeed.GetComponent<CharacterMovement>();
+		//playerPrefab.transform.localScale *= multiplier;
 	}
+	//IEnumerator SpeedPowerUp()
+	//IEnumerator SpeedPowerUp(int playerMovement)
+	//{
+		//playerPrefab. = powerSpeed;
+	//	yield return new WaitForSeconds(3f);
+	//	movementOfCharacter.speed = 20f;
+	//	Debug.Log("Times Up for Power Up Speed");
+	//}
 }
