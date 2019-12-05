@@ -91,6 +91,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4793868429919754}
+  - component: {fileID: 114141930800737442}
+  - component: {fileID: 114133623055655958}
   m_Layer: 0
   m_Name: Weapon
   m_TagString: Untagged
@@ -198,7 +200,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1851542964341538}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.34}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4225464809546348}
@@ -227,6 +229,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51cb9de2f2fc69440933ed2f0fad50e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: 8e1930aa6b012dd4b9c8f422e92d3c7c, type: 2}
+--- !u!114 &114133623055655958
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1851542964341538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 360b0b4dfbe60844fa26b595fe289eb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameActionObj: {fileID: 11400000, guid: 8848508ff31065e46b3976bd0c7d8029, type: 2}
+  handlerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114141930800737442}
+        m_MethodName: CreateInstance
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114141930800737442
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1851542964341538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 869f8c93f5ede654db8b5d7e2fc215e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1218229767814344, guid: 526e7be2f7573ff43905bd25170395ec, type: 2}
 --- !u!114 &114146937369244532
 MonoBehaviour:
   m_ObjectHideFlags: 1

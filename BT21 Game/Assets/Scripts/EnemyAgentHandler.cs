@@ -8,7 +8,7 @@ using UnityEngine.AI;
 public class EnemyAgentHandler : MonoBehaviour
 {
 	private NavMeshAgent agent;
-	private Transform location;
+	private Transform currentDestination;
 	public Transform playerDestination;
 	private GameObject startObj;
 
@@ -17,13 +17,13 @@ public class EnemyAgentHandler : MonoBehaviour
 	{
 		startObj = new GameObject();
 		startObj.transform.position = transform.position;
-		location = transform;
+		currentDestination = transform;
 		agent = GetComponent<NavMeshAgent>(); 
 	}
 
 	private void OnTriggerEnter(Collider other)
 	{
-		location = playerDestination;
+		currentDestination = playerDestination;
 	}
 
 	private void OnTriggerExit(Collider other)
@@ -33,7 +33,7 @@ public class EnemyAgentHandler : MonoBehaviour
 
 	private void Update()
 	{
-		agent.destination = location.position;
+		agent.destination = currentDestination.position;
 	}
 }
 

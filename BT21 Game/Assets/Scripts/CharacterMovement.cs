@@ -16,10 +16,7 @@ public class CharacterMovement : MonoBehaviour
 	public int jumpCountMax = 2;
 	private Vector3 position;
 	public CharacterController controller;
-	private bool grounded;
-	private bool canDoubleJump;
-	
-	
+
 
 	private void Start()
 	{
@@ -52,7 +49,7 @@ public class CharacterMovement : MonoBehaviour
 		}
 		if (controller.isGrounded)
 		{
-			position.y = jumpSpeed;
+			//position.y = jumpSpeed; I FIXED IT. It was calling this again constantly and I didn't need that. 
 			jumpCount = 0;
 		}
 

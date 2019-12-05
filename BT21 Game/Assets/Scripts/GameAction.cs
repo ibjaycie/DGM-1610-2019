@@ -1,5 +1,4 @@
-﻿
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 [CreateAssetMenu]
 public class GameAction : ScriptableObject
@@ -8,6 +7,6 @@ public class GameAction : ScriptableObject
 
     public void Raise()
     {
-        //action?.Invoke();
+        action?.Invoke();
     }
 }

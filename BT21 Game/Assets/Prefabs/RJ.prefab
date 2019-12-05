@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4574023482024204}
   - component: {fileID: 143423789518811006}
   - component: {fileID: 114628856232672986}
-  - component: {fileID: 114641311734988730}
   m_Layer: 0
   m_Name: RJ
   m_TagString: Untagged
@@ -38,6 +37,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4883819660356462}
   - component: {fileID: 212450620207472112}
+  - component: {fileID: 114507971473387294}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Untagged
@@ -202,6 +202,18 @@ MonoBehaviour:
   m_YawDamping: 0
   m_RollDamping: 0
   m_AngularDamping: 0
+--- !u!114 &114507971473387294
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1245171828672328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51cb9de2f2fc69440933ed2f0fad50e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: 8e1930aa6b012dd4b9c8f422e92d3c7c, type: 2}
 --- !u!114 &114628856232672986
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -218,17 +230,6 @@ MonoBehaviour:
   gravity: 50
   jumpCountMax: 2
   controller: {fileID: 143423789518811006}
---- !u!114 &114641311734988730
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1085542242245192}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51cb9de2f2fc69440933ed2f0fad50e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114844959932213040
 MonoBehaviour:
   m_ObjectHideFlags: 1

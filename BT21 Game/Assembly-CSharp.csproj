@@ -77,6 +77,8 @@
     <Compile Include="Assets\Scripts\Events\TriggerEvents.cs" />
     <Compile Include="Assets\Scripts\GameAction.cs" />
     <Compile Include="Assets\Scripts\GameActionHandler.cs" />
+    <Compile Include="Assets\Scripts\GameActionRaiser.cs" />
+    <Compile Include="Assets\Scripts\Instancer.cs" />
     <Compile Include="Assets\Scripts\MouseEvents.cs" />
     <Compile Include="Assets\Scripts\MovementDelayCoroutine.cs" />
     <Compile Include="Assets\Scripts\OnWeaponDebugger.cs" />

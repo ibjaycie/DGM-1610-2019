@@ -30,6 +30,8 @@
           </e>
           <e p="GameAction.cs" t="Include" />
           <e p="GameActionHandler.cs" t="Include" />
+          <e p="GameActionRaiser.cs" t="Include" />
+          <e p="Instancer.cs" t="Include" />
           <e p="MouseEvents.cs" t="Include" />
           <e p="MovementDelayCoroutine.cs" t="Include" />
           <e p="OnWeaponDebugger.cs" t="Include" />
