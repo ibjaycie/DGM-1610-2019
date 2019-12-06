@@ -8,8 +8,8 @@ using UnityEngine.AI;
 public class EnemyAgentHandler : MonoBehaviour
 {
 	private NavMeshAgent agent;
-	private Transform currentDestination;
-	public Transform playerDestination;
+	private Vector3 currentDestination;
+	public Vector3Data destinationObj;
 	private GameObject startObj;
 
 
@@ -17,23 +17,23 @@ public class EnemyAgentHandler : MonoBehaviour
 	{
 		startObj = new GameObject();
 		startObj.transform.position = transform.position;
-		currentDestination = transform;
+		currentDestination = destinationObj.value;
 		agent = GetComponent<NavMeshAgent>(); 
 	}
 
 	private void OnTriggerEnter(Collider other)
 	{
-		currentDestination = playerDestination;
+		currentDestination = destinationObj.value;
 	}
 
 	private void OnTriggerExit(Collider other)
 	{
-		playerDestination = startObj.transform;
+		currentDestination = startObj.transform.position;
 	}
 
 	private void Update()
 	{
-		agent.destination = currentDestination.position;
+		agent.destination = currentDestination;
 	}
 }
 

@@ -16,6 +16,7 @@ public class CharacterMovement : MonoBehaviour
 	public int jumpCountMax = 2;
 	private Vector3 position;
 	public CharacterController controller;
+	public Vector3Data locationData;
 
 
 	private void Start()
@@ -38,7 +39,7 @@ public class CharacterMovement : MonoBehaviour
 
 	private void Update()
 	{
-
+		locationData.value = transform.position;
 		position.x = speed * Input.GetAxis("Horizontal");
 		controller.Move(position * Time.deltaTime); 
 		

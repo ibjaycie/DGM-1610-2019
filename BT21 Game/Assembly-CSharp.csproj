@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\Data Scripts\HealthData.cs" />
     <Compile Include="Assets\Scripts\Data Scripts\PlayerWeaponData.cs" />
     <Compile Include="Assets\Scripts\Data Scripts\Vector3Data.cs" />
+    <Compile Include="Assets\Scripts\EmitParticles.cs" />
     <Compile Include="Assets\Scripts\EnemyAgentHandler.cs" />
     <Compile Include="Assets\Scripts\EnemyShoot.cs" />
     <Compile Include="Assets\Scripts\Events\TriggerEvents.cs" />

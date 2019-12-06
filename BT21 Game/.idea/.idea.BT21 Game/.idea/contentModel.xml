@@ -23,6 +23,7 @@
             <e p="PlayerWeaponData.cs" t="Include" />
             <e p="Vector3Data.cs" t="Include" />
           </e>
+          <e p="EmitParticles.cs" t="Include" />
           <e p="EnemyAgentHandler.cs" t="Include" />
           <e p="EnemyShoot.cs" t="Include" />
           <e p="Events" t="Include">
