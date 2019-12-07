@@ -40,9 +40,11 @@
           <e p="ScoreData.cs" t="Include" />
           <e p="SelfDestruct.cs" t="Include" />
           <e p="SpeedPowerUpEvent.cs" t="Include" />
+          <e p="SwitchWeapon.cs" t="Include" />
           <e p="TransformCoin.cs" t="Include" />
           <e p="UiHealthImageController.cs" t="Include" />
           <e p="UiTextController.cs" t="Include" />
+          <e p="WeaponPickup.cs" t="Include" />
           <e p="WeaponsHandler.cs" t="Include" />
         </e>
         <e p="StatesBehavoir.cs" t="Include" />

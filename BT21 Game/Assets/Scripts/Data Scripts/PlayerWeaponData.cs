@@ -10,4 +10,5 @@ public class PlayerWeaponData : ScriptableObject
 	public GameObject prefab;
 	public string weaponDescription;
 
+	
 }

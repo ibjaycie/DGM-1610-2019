@@ -5083,11 +5083,11 @@ Prefab:
     - target: {fileID: 114812929229129654, guid: 8b2a462f2c0e27a499784f9ab06930a6,
         type: 2}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4436052544839228, guid: 8b2a462f2c0e27a499784f9ab06930a6, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 20.6
+      value: 31.27
       objectReference: {fileID: 0}
     - target: {fileID: 4436052544839228, guid: 8b2a462f2c0e27a499784f9ab06930a6, type: 2}
       propertyPath: m_LocalPosition.y
@@ -5117,67 +5117,24 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
-    - target: {fileID: 114812929229129654, guid: 8b2a462f2c0e27a499784f9ab06930a6,
-        type: 2}
-      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 11400000, guid: 2b1d36810193e9a48b75585122b13def,
-        type: 2}
-    - target: {fileID: 114812929229129654, guid: 8b2a462f2c0e27a499784f9ab06930a6,
-        type: 2}
-      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: AddData
+    - target: {fileID: 1702379873840472, guid: 8b2a462f2c0e27a499784f9ab06930a6, type: 2}
+      propertyPath: m_Name
+      value: Sword
       objectReference: {fileID: 0}
-    - target: {fileID: 114812929229129654, guid: 8b2a462f2c0e27a499784f9ab06930a6,
-        type: 2}
-      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114812929229129654, guid: 8b2a462f2c0e27a499784f9ab06930a6,
-        type: 2}
-      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: PlayerWeaponData, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 114812929229129654, guid: 8b2a462f2c0e27a499784f9ab06930a6,
-        type: 2}
-      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 11400000, guid: 7432d02dcab302e4ca4929aa622a7515,
-        type: 2}
     - target: {fileID: 114812929229129654, guid: 8b2a462f2c0e27a499784f9ab06930a6,
         type: 2}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 75110220}
-    - target: {fileID: 114812929229129654, guid: 8b2a462f2c0e27a499784f9ab06930a6,
-        type: 2}
-      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 114812929229129654, guid: 8b2a462f2c0e27a499784f9ab06930a6,
         type: 2}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 114812929229129654, guid: 8b2a462f2c0e27a499784f9ab06930a6,
-        type: 2}
-      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114812929229129654, guid: 8b2a462f2c0e27a499784f9ab06930a6,
         type: 2}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114812929229129654, guid: 8b2a462f2c0e27a499784f9ab06930a6,
-        type: 2}
-      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 136359368439237028, guid: 8b2a462f2c0e27a499784f9ab06930a6,
-        type: 2}
-      propertyPath: m_IsTrigger
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8b2a462f2c0e27a499784f9ab06930a6, type: 2}
@@ -6640,6 +6597,53 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 670044991}
+--- !u!1001 &720120724
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4123829886701166, guid: 94117883b964dc34bbffb9f7bba9ef20, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123829886701166, guid: 94117883b964dc34bbffb9f7bba9ef20, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -2.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123829886701166, guid: 94117883b964dc34bbffb9f7bba9ef20, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123829886701166, guid: 94117883b964dc34bbffb9f7bba9ef20, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123829886701166, guid: 94117883b964dc34bbffb9f7bba9ef20, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123829886701166, guid: 94117883b964dc34bbffb9f7bba9ef20, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123829886701166, guid: 94117883b964dc34bbffb9f7bba9ef20, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123829886701166, guid: 94117883b964dc34bbffb9f7bba9ef20, type: 2}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 114352687729144066, guid: 94117883b964dc34bbffb9f7bba9ef20,
+        type: 2}
+      propertyPath: weapon.Array.data[1]
+      value: 
+      objectReference: {fileID: 75110220}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 94117883b964dc34bbffb9f7bba9ef20, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &743203990
 GameObject:
   m_ObjectHideFlags: 0
@@ -13887,6 +13891,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f75a569761358904db783229b5a10f18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentWeapon: {fileID: 0}
 --- !u!1 &1812439061
 GameObject:
   m_ObjectHideFlags: 0

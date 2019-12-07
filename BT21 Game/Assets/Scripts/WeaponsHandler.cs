@@ -5,12 +5,13 @@ using UnityEngine;
 
 public class WeaponsHandler : MonoBehaviour
 {
+	public GameObject currentWeapon;
+	
 
-	public Debugger weaponObj;
-
-	public void SwitchWeapon(Debugger newWeaponObj)
+	public void UpdateWeapon(GameObject newWeapon)
 	{
-		weaponObj = newWeaponObj;
+		currentWeapon = newWeapon;
+		
 	}
 
 	//private void Update()
