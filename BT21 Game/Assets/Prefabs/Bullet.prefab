@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   forceDirection: {fileID: 11400000, guid: 8e1930aa6b012dd4b9c8f422e92d3c7c, type: 2}
-  force: 500
+  force: 1000
 --- !u!114 &114203361849727896
 MonoBehaviour:
   m_ObjectHideFlags: 1

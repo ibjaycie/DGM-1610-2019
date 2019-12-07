@@ -84,6 +84,7 @@
     <Compile Include="Assets\Scripts\MovementDelayCoroutine.cs" />
     <Compile Include="Assets\Scripts\OnWeaponDebugger.cs" />
     <Compile Include="Assets\Scripts\PlayerMaxWeapons.cs" />
+    <Compile Include="Assets\Scripts\PowerUp.cs" />
     <Compile Include="Assets\Scripts\ScoreData.cs" />
     <Compile Include="Assets\Scripts\SelfDestruct.cs" />
     <Compile Include="Assets\Scripts\SpeedPowerUpEvent.cs" />
