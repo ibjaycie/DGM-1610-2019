@@ -5075,10 +5075,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114812929229129654, guid: 8b2a462f2c0e27a499784f9ab06930a6,
+    - target: {fileID: 114391100471792180, guid: 8b2a462f2c0e27a499784f9ab06930a6,
         type: 2}
-      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      propertyPath: onTriggerEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4436052544839228, guid: 8b2a462f2c0e27a499784f9ab06930a6, type: 2}
       propertyPath: m_LocalPosition.x
@@ -5116,32 +5116,35 @@ Prefab:
       propertyPath: m_Name
       value: Sword
       objectReference: {fileID: 0}
-    - target: {fileID: 114812929229129654, guid: 8b2a462f2c0e27a499784f9ab06930a6,
+    - target: {fileID: 114391100471792180, guid: 8b2a462f2c0e27a499784f9ab06930a6,
         type: 2}
-      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      propertyPath: onTriggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114812929229129654, guid: 8b2a462f2c0e27a499784f9ab06930a6,
+      objectReference: {fileID: 1665462656}
+    - target: {fileID: 114391100471792180, guid: 8b2a462f2c0e27a499784f9ab06930a6,
         type: 2}
-      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
+      propertyPath: onTriggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BroadcastMessage
       objectReference: {fileID: 0}
-    - target: {fileID: 114812929229129654, guid: 8b2a462f2c0e27a499784f9ab06930a6,
+    - target: {fileID: 114391100471792180, guid: 8b2a462f2c0e27a499784f9ab06930a6,
         type: 2}
-      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      propertyPath: onTriggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114391100471792180, guid: 8b2a462f2c0e27a499784f9ab06930a6,
+        type: 2}
+      propertyPath: onTriggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114391100471792180, guid: 8b2a462f2c0e27a499784f9ab06930a6,
+        type: 2}
+      propertyPath: onTriggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: would you like to pick up the word?
+      objectReference: {fileID: 0}
+    - target: {fileID: 114391100471792180, guid: 8b2a462f2c0e27a499784f9ab06930a6,
+        type: 2}
+      propertyPath: onTriggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4436052544839228, guid: 8b2a462f2c0e27a499784f9ab06930a6, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 3.8439832
-      objectReference: {fileID: 0}
-    - target: {fileID: 4436052544839228, guid: 8b2a462f2c0e27a499784f9ab06930a6, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 3.8439837
-      objectReference: {fileID: 0}
-    - target: {fileID: 4436052544839228, guid: 8b2a462f2c0e27a499784f9ab06930a6, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 3.8439837
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8b2a462f2c0e27a499784f9ab06930a6, type: 2}
@@ -6357,7 +6360,6 @@ GameObject:
   - component: {fileID: 662679445}
   - component: {fileID: 662679444}
   - component: {fileID: 662679443}
-  - component: {fileID: 662679442}
   - component: {fileID: 662679441}
   m_Layer: 0
   m_Name: PowerUp
@@ -6377,33 +6379,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3df94cb8429159542a500f0fd8cd951d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &662679442
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 662679440}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1c39f29872050943a0d43d1e1b1a2f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerEnterEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11500000, guid: 0dbc3c14e08d94148a273e0a15a41167, type: 3}
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!135 &662679443
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9024,6 +8999,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1665462656 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114391100471792180, guid: 8b2a462f2c0e27a499784f9ab06930a6,
+    type: 2}
+  m_PrefabInternal: {fileID: 233748801}
+  m_Script: {fileID: 11500000, guid: 0a6e6d32bb84ec842a074b8b2c761415, type: 3}
 --- !u!1 &1697723892
 GameObject:
   m_ObjectHideFlags: 0

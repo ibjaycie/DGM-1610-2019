@@ -144,6 +144,8 @@ GameObject:
   - component: {fileID: 65305757684793550}
   - component: {fileID: 114484178207208180}
   - component: {fileID: 114352687729144066}
+  - component: {fileID: 95814995278987490}
+  - component: {fileID: 114967784447867542}
   m_Layer: 0
   m_Name: Chimmy
   m_TagString: Untagged
@@ -278,6 +280,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &95814995278987490
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1914660568194004}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d7c1b359516e496409a64ae05ec9af93, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114084149956054736
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -543,6 +563,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countdown: 3
   countdownText: {fileID: 114835164620788472}
+--- !u!114 &114967784447867542
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1914660568194004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bfc5395a343fa64186261482dcf0552, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114969852247876488
 MonoBehaviour:
   m_ObjectHideFlags: 1

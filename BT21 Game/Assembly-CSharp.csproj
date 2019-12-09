@@ -88,6 +88,7 @@
     <Compile Include="Assets\Scripts\ScoreData.cs" />
     <Compile Include="Assets\Scripts\SelfDestruct.cs" />
     <Compile Include="Assets\Scripts\SpeedPowerUpEvent.cs" />
+    <Compile Include="Assets\Scripts\StaeMachineAnimation.cs" />
     <Compile Include="Assets\Scripts\SwitchWeapon.cs" />
     <Compile Include="Assets\Scripts\TransformCoin.cs" />
     <Compile Include="Assets\Scripts\UiHealthImageController.cs" />
