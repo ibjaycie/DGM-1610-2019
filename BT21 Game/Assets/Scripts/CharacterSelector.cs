@@ -18,11 +18,13 @@ public class CharacterSelector : MonoBehaviour
 	public GameObject selectedPlayer;
 	public int countdown = 3;
 	public Text countdownText;
+	//public Text selectPrompt;
 		
 
 	public void StartGame(int characterChoice) //int assigns a number to the character it will choose
 	{
 		friendPanel.SetActive(false);
+		//selectPrompt.SetActive(false);
 		selectedPlayer = Instantiate(player[characterChoice]); //CAME UP WITH THIS ON MY OWN
 		instantiateCountdown.Invoke();
 		StartCoroutine(PrintText());

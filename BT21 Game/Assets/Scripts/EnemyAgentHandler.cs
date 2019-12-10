@@ -33,11 +33,8 @@ public class EnemyAgentHandler : MonoBehaviour
 
 	private void Update()
 	{
-		agent.destination = currentDestination;
+		agent.Warp(currentDestination);
 	}
 }
 
 
-//actually it's just going to my players zero position. 
-//i don't have any errors but it just going to the zero position of the player. 
-//the play triggers the movement but the enemy doesn't follow. 

@@ -82,6 +82,7 @@
     <Compile Include="Assets\Scripts\Instancer.cs" />
     <Compile Include="Assets\Scripts\MouseEvents.cs" />
     <Compile Include="Assets\Scripts\MovementDelayCoroutine.cs" />
+    <Compile Include="Assets\Scripts\OnMouseDownDeactivate.cs" />
     <Compile Include="Assets\Scripts\OnWeaponDebugger.cs" />
     <Compile Include="Assets\Scripts\PlayerMaxWeapons.cs" />
     <Compile Include="Assets\Scripts\PowerUp.cs" />

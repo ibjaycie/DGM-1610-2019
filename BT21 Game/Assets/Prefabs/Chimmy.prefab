@@ -174,11 +174,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4123829886701166}
   - component: {fileID: 143840819833462440}
-  - component: {fileID: 208920998158027072}
   - component: {fileID: 65305757684793550}
   - component: {fileID: 114484178207208180}
   - component: {fileID: 95814995278987490}
   - component: {fileID: 114967784447867542}
+  - component: {fileID: 208185344721958754}
   m_Layer: 0
   m_Name: Chimmy
   m_TagString: Untagged
@@ -713,7 +713,7 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
---- !u!208 &208920998158027072
+--- !u!208 &208185344721958754
 NavMeshObstacle:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
