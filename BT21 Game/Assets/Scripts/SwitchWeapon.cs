@@ -6,35 +6,75 @@ using UnityEngine.Events;
 
 public class SwitchWeapon : MonoBehaviour
 {
-	public WeaponOptions currentWeapon;
-	public UnityEvent onTriggerEvent;
-	public GameObject[] weapon;
-	public enum WeaponOptions
+	//public WeaponOptions currentWeapon;
+	//public UnityEvent onTriggerEvent;
+	//public GameObject[] weapon;
+	public int selectedWeapon = 0;
+//	public enum WeaponOptions
+//	{
+//		ArmyBomb,
+//		Sword
+//	}
+
+	private void Start()
 	{
-		ArmyBomb,
-		Sword
+		SelectedWeapon();
 	}
 
-	//private void Start()
-	//{
-	//	if (currentWeapon == WeaponOptions.ArmyBomb)
-	//	{
-	//		Debug.Log("Your current weapon is an Army Bomb!");
-	//	}
-	//}
-
-	private void OnTriggerEnter(Collider other)
+	private void Update()
 	{
-		switch (currentWeapon)
+		int previousSelectedWeapon = selectedWeapon;
+		
+		if (Input.GetAxis("Mouse ScrollWheel") > 0)
 		{
-			case WeaponOptions.ArmyBomb:
-				onTriggerEvent.Invoke();
-				break;
-			case WeaponOptions.Sword:
-				onTriggerEvent.Invoke();
-				break;
+			if (selectedWeapon >= transform.childCount - 1)
+				selectedWeapon = 0;
+			else
+				selectedWeapon++;
+		}
+		if (Input.GetAxis("Mouse ScrollWheel") < 0)
+		{
+			if (selectedWeapon <= 0)
+				selectedWeapon = transform.childCount - 1;
+			else
+				selectedWeapon--;
+		}
+
+		if (previousSelectedWeapon != selectedWeapon)
+		{
+			SelectedWeapon();
 		}
 	}
+
+	void SelectedWeapon()
+	{
+		int i = 0;
+		foreach (Transform weapon in transform)
+		{
+			if (i == selectedWeapon)
+			{
+				weapon.gameObject.SetActive(true);
+			}
+			else
+			{
+				weapon.gameObject.SetActive(false);
+			}
+			i++;
+		}
+	}
+
+//	private void OnTriggerEnter(Collider other)
+//	{
+//		switch (currentWeapon)
+//		{
+//			case WeaponOptions.ArmyBomb:
+//				onTriggerEvent.Invoke();
+//				break;
+//			case WeaponOptions.Sword:
+//				onTriggerEvent.Invoke();
+//				break;
+//		}
+//	}
 
 
 }
