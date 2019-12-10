@@ -33,7 +33,8 @@ public class EnemyAgentHandler : MonoBehaviour
 
 	private void Update()
 	{
-		agent.Warp(currentDestination);
+		//agent.Warp(currentDestination);
+		agent.destination = currentDestination;
 	}
 }
 

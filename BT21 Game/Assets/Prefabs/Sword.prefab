@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 23662613962943942}
   - component: {fileID: 136359368439237028}
   m_Layer: 0
-  m_Name: ClubPickUpWeapon
+  m_Name: Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
