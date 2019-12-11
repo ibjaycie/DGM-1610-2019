@@ -94,7 +94,6 @@
     <Compile Include="Assets\Scripts\TransformCoin.cs" />
     <Compile Include="Assets\Scripts\UiHealthImageController.cs" />
     <Compile Include="Assets\Scripts\UiTextController.cs" />
-    <Compile Include="Assets\Scripts\WeaponPickup.cs" />
     <Compile Include="Assets\Scripts\WeaponsHandler.cs" />
     <Compile Include="Assets\StatesBehavoir.cs" />
     <Reference Include="Cinemachine">

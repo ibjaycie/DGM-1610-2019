@@ -12,4 +12,3 @@ public class TransformCoin : MonoBehaviour
         transform.Rotate(0, rotateSpeed, 0, Space.World);
     }
 }
-//that was way easier than I thought it would be. 

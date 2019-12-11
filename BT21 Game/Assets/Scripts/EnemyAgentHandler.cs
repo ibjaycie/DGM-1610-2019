@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -33,7 +31,7 @@ public class EnemyAgentHandler : MonoBehaviour
 
 	private void Update()
 	{
-		//agent.Warp(currentDestination);
+		
 		agent.destination = currentDestination;
 	}
 }

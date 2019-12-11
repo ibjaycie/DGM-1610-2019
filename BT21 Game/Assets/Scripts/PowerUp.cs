@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections;
 using UnityEngine;
 
 public class PowerUp : MonoBehaviour
@@ -28,5 +26,4 @@ public class PowerUp : MonoBehaviour
     }
 }
 
-//YES I FINALLY FIGURED IT OUT WHY DID THIS TAKE SO LONG. It took me forever (with the hep
-//of brackeys for the past month) to figure out hwo to reference another script UGH. Finally. 
+

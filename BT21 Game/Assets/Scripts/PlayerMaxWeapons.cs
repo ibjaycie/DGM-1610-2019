@@ -12,4 +12,4 @@ public class PlayerMaxWeapons : MonoBehaviour
 		throw new NotImplementedException();
 	}
 }
-//I actually don't think I need this script. 
+

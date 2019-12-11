@@ -18,7 +18,7 @@ public class CountdownCoroutine : MonoBehaviour
         
         if (countdown >= 1)
         {
-            countdownText.text = ("" + countdown); //Showing the Score on the Canvas
+            countdownText.text = ("" + countdown); 
         }
         else
         {
@@ -52,9 +52,7 @@ public class CountdownCoroutine : MonoBehaviour
             countdownText.text = ("test");
         }
     }
-        //yield return new WaitForSeconds(1f);
-        //countdownText.text = "You Can Move Now!";
-        //countdown--;
+       
            
     
 }

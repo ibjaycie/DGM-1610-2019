@@ -50,7 +50,7 @@ public class CharacterMovement : MonoBehaviour
 		}
 		if (controller.isGrounded)
 		{
-			//position.y = jumpSpeed; I FIXED IT. It was calling this again constantly and I didn't need that. 
+			
 			jumpCount = 0;
 		}
 

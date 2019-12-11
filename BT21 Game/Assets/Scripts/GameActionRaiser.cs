@@ -17,7 +17,7 @@ public class GameActionRaiser : MonoBehaviour
 		canRun = true;
 		while (canRun)
 		{
-			gameActionObj.Raise(); //raise is another word for call. When we raise actions we invoke events. 
+			gameActionObj.Raise(); 
 			yield return waitForSeconds;
 		}
 	}
