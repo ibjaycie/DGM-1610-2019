@@ -85,6 +85,7 @@
     <Compile Include="Assets\Scripts\OnMouseDownDeactivate.cs" />
     <Compile Include="Assets\Scripts\OnWeaponDebugger.cs" />
     <Compile Include="Assets\Scripts\PlayerMaxWeapons.cs" />
+    <Compile Include="Assets\Scripts\PowerDown.cs" />
     <Compile Include="Assets\Scripts\PowerUp.cs" />
     <Compile Include="Assets\Scripts\ScoreData.cs" />
     <Compile Include="Assets\Scripts\SelfDestruct.cs" />

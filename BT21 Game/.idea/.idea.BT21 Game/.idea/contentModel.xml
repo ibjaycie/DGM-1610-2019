@@ -38,6 +38,7 @@
           <e p="OnMouseDownDeactivate.cs" t="Include" />
           <e p="OnWeaponDebugger.cs" t="Include" />
           <e p="PlayerMaxWeapons.cs" t="Include" />
+          <e p="PowerDown.cs" t="Include" />
           <e p="PowerUp.cs" t="Include" />
           <e p="ScoreData.cs" t="Include" />
           <e p="SelfDestruct.cs" t="Include" />
