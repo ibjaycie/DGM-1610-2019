@@ -138,7 +138,9 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="ConversationPrompt.cs" t="Include" />
-          <e p="PlayerHealthData.cs" t="Include" />
+          <e p="Data Scripts" t="Include">
+            <e p="PlayerHealthData.cs" t="Include" />
+          </e>
           <e p="VampireMovement.cs" t="Include" />
         </e>
       </e>
