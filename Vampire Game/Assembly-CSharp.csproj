@@ -114,6 +114,7 @@
     <Compile Include="Assets\Cinemachine\Timeline\CinemachineTrack.cs" />
     <Compile Include="Assets\Scripts\ConversationPrompt.cs" />
     <Compile Include="Assets\Scripts\Data Scripts\PlayerHealthData.cs" />
+    <Compile Include="Assets\Scripts\HealthCoRoutine.cs" />
     <Compile Include="Assets\Scripts\VampireMovement.cs" />
     <None Include="Assets\Cinemachine\ReleaseNotes.txt" />
     <Reference Include="UnityEditor.StandardEvents">
