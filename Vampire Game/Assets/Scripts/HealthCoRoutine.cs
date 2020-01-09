@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class HealthCoRoutine : MonoBehaviour 
 {
-	private WaitForSeconds wfsobj = new WaitForSeconds(60f); //My intention here is that his health slowly
-	//depletles the longer he hasn't drank blood. 
-	private void Start()
+	private WaitForSeconds wfsobj = new WaitForSeconds(3f); //My intention here is that his health slowly
+	//depletes the longer he goes without drank blood. 
+	private void Update()
 	{
 		StartCoroutine(depleteHealth());
 	}
