@@ -4,13 +4,13 @@ using UnityEngine;
 [CreateAssetMenu]
 public class PlayerHealthData : ScriptableObject 
 {
-    public float totalHealth = 1f;
+    public float totalHealth = 100f;
     public float minHealth = 0f;
-    public float maxHealth = 1f;
+    public float maxHealth = 100f;
 
     public void UpdateHealth(float amount)
     {
-        totalHealth += amount;
+        totalHealth -= amount*Time.deltaTime;
     }
 
     public void UpdateHealthRange(float amount)
