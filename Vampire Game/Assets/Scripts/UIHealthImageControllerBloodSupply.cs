@@ -17,7 +17,22 @@ public class UIHealthImageControllerBloodSupply : MonoBehaviour
 		healthBar = GetComponent<Image>();
 	}
 
-	
+	private void Start()
+	{
+		healthBar.fillAmount = maxHealth;
+	}
+
+	private void Update()
+	{
+		//healthBar.fillAmount = Time.deltaTime; //okay this is doing something but idk what right now. 
+		healthBar.fillAmount = maxHealth - 5f* Time.deltaTime;
+		if (Input.anyKey)
+		{
+			healthBar.fillAmount = maxHealth - 1f;
+		}
+		
+	}
+
 	public void UpdateImage(PlayerHealthData data)
 	{
 		healthBar.fillAmount = data.totalHealth;
