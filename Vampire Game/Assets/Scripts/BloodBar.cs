@@ -38,4 +38,33 @@ public class BloodBar : MonoBehaviour
 		//	slider.value = 
 		//}
 	}
+
+	public void OnTriggerEnter(Collider target)
+	{
+		StopCoroutine(BloodBarCountdown());
+		StartCoroutine(ReverseBloodBarCountdown());
+		
+	}
+
+	public void OnTriggerExit(Collider other)
+	{
+		StopCoroutine(ReverseBloodBarCountdown());
+		StartCoroutine(BloodBarCountdown());
+	}
+
+	public IEnumerator ReverseBloodBarCountdown()
+	{
+		Debug.Log("Filling up on blood");
+		if (slider != null)
+		{
+			float timeSlice = (slider.value / 30);
+			while (slider.value >= 0)
+			{
+				slider.value += timeSlice;
+				yield return new WaitForSeconds(1);
+				if (slider.value <= 0)
+					break;
+			}
+		}
+	}
 }

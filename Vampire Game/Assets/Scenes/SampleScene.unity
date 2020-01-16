@@ -917,7 +917,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1039,7 +1039,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5283019, g: 0.07725169, b: 0.07725169, a: 1}
+  m_Color: {r: 0.1540507, g: 0.6792453, b: 0.086507656, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1532,7 +1532,7 @@ GameObject:
   - component: {fileID: 1775068436}
   - component: {fileID: 1775068435}
   m_Layer: 0
-  m_Name: Practice Enemy
+  m_Name: BloodBag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1552,24 +1552,12 @@ MonoBehaviour:
   onTriggerEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 6f4e8781f5f085841b741abd1d33dcfa, type: 2}
-        m_MethodName: UpdateHealth
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: -0.5
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1509994522}
-        m_MethodName: UpdateImage
+      - m_Target: {fileID: 844999757}
+        m_MethodName: OnTriggerEnter
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 6f4e8781f5f085841b741abd1d33dcfa,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: PlayerHealthData, Assembly-CSharp
+          m_ObjectArgument: {fileID: 1875380927}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Collider, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1644,6 +1632,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &1875380927 stripped
+CapsuleCollider:
+  m_PrefabParentObject: {fileID: 136492564648578102, guid: bb2b89946d3ddd9429e8f904e312584a,
+    type: 2}
+  m_PrefabInternal: {fileID: 618844619}
 --- !u!1 &1886667920
 GameObject:
   m_ObjectHideFlags: 0
