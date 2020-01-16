@@ -137,6 +137,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="BloodBar.cs" t="Include" />
           <e p="ConversationPrompt.cs" t="Include" />
           <e p="Data Scripts" t="Include">
             <e p="PlayerHealthData.cs" t="Include" />
