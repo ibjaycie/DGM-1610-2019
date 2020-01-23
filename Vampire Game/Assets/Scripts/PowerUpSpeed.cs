@@ -7,21 +7,21 @@ public class PowerUpSpeed : MonoBehaviour
     private WaitForSeconds  wait = new WaitForSeconds(4);
     private void OnTriggerEnter(Collider other)
     {
-        StartCoroutine(pickupPowerDown(other));
+        StartCoroutine(pickupPowerUp(other));
     }
 
-    IEnumerator pickupPowerDown(Collider player)
+    IEnumerator pickupPowerUp(Collider player)
     {
-        VampireMovement powerDownSpeed = player.GetComponent<VampireMovement>();
+        VampireMovement powerUpSpeed = player.GetComponent<VampireMovement>();
         
-        powerDownSpeed.speed = 3f;
+        powerUpSpeed.speed = 10f;
         
         GetComponent<MeshRenderer>().enabled = false;
         GetComponent<Collider>().enabled = false;
         
         yield return wait;
         
-        powerDownSpeed.speed = 10f;
+        powerUpSpeed.speed = 3f;
         
         Destroy(gameObject);
     }
