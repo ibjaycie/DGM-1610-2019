@@ -33,4 +33,9 @@ public class BloodBar : MonoBehaviour
 		}
 		yield return null;
 	}
+
+	public void OnTriggerExit(Collider other)
+	{
+		StartCoroutine(BloodBarCountdown());
+	}
 }

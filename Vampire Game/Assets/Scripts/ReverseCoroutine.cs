@@ -15,7 +15,7 @@ public class ReverseCoroutine : MonoBehaviour
 		StartCoroutine(ReverseBloodBarCountdown());
 	}
 
-	private void OnTriggerExit(Collider other)
+	public void OnTriggerExit(Collider other)
 	{
 		StopCoroutine(ReverseBloodBarCountdown());
 	}
