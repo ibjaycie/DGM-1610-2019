@@ -118,6 +118,7 @@
     <Compile Include="Assets\Scripts\HealthCoRoutine.cs" />
     <Compile Include="Assets\Scripts\OnTriggerEvents.cs" />
     <Compile Include="Assets\Scripts\PowerUpSpeed.cs" />
+    <Compile Include="Assets\Scripts\ReverseCoroutine.cs" />
     <Compile Include="Assets\Scripts\UIHealthImageControllerBloodSupply.cs" />
     <Compile Include="Assets\Scripts\VampireMovement.cs" />
     <None Include="Assets\Cinemachine\ReleaseNotes.txt" />

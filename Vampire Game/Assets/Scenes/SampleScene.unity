@@ -1543,6 +1543,7 @@ GameObject:
   - component: {fileID: 1775068437}
   - component: {fileID: 1775068436}
   - component: {fileID: 1775068435}
+  - component: {fileID: 1775068440}
   m_Layer: 0
   m_Name: BloodBag
   m_TagString: Untagged
@@ -1565,11 +1566,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 844999757}
-        m_MethodName: OnTriggerEnter
-        m_Mode: 2
+        m_MethodName: StopAllCoroutines
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 1875380927}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Collider, UnityEngine
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1644,11 +1645,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &1875380927 stripped
-CapsuleCollider:
-  m_PrefabParentObject: {fileID: 136492564648578102, guid: bb2b89946d3ddd9429e8f904e312584a,
-    type: 2}
-  m_PrefabInternal: {fileID: 618844619}
+--- !u!114 &1775068440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1775068434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c591ff0ea0afc46bd32727b2a66b72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthImageCanvas: {fileID: 844999752}
+  slider: {fileID: 1423518235}
 --- !u!1 &1886667920
 GameObject:
   m_ObjectHideFlags: 0
